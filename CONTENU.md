@@ -1,0 +1,1760 @@
+# MAISON ZH — contenu du site à valider
+
+Site : https://maison-zh.vercel.app (FR /fr, AR /ar, EN /en). Les textes se modifient dans `locales/fr.json`, `ar.json`, `en.json` ; les infos datées dans `data/*.json`. Ce fichier est régénéré par `npm run contenu`. Les infos à demander sont dans `INFOS-A-DEMANDER.md`.
+
+## Titre du hero : 3 propositions
+
+1. **Deux cuisines, une seule exigence** (en ligne)
+2. La table française, l'âme marocaine
+3. Le grand jour mérite une grande table
+
+## Données à remplir
+
+### Formules (`data/formules.json`)
+
+| Formule | Prix à partir de (€/pers.) | Minimum |
+|---|---|---|
+| Cocktail | à remplir | à remplir |
+| Buffet | à remplir | à remplir |
+| Repas servi | à remplir | à remplir |
+| Menu marocain | à remplir | à remplir |
+| Menu mixte | à remplir | à remplir |
+| Chef à domicile | à remplir | 4 |
+
+### Plats signature (`data/menus.json`)
+
+Tirés de ses photos et légendes Instagram. « confirmé » = cité dans une légende ; « à valider » = vu en photo seulement.
+
+**Gastronomie européenne**
+
+- Tartare mangue et avocat : Entrée fraîche en cercle, fleurs comestibles. (à valider)
+- Agneau confit, purée de carotte : Cuisson longue, jus réduit, herbes fraîches. (à valider)
+- Rôti et ses accompagnements : Servi à l'assiette, légumes glacés et sauce maison. (confirmé)
+- Suprême de volaille : Purée onctueuse, carottes rôties, fagot de haricots verts. (à valider)
+- Pavlova aux fruits rouges : Meringue croustillante, crème légère, coulis de fruits rouges. (confirmé)
+- Dôme chocolat et fruits rouges : Dessert à l'assiette, dentelle de chocolat. (à valider)
+
+**Tradition marocaine**
+
+- Pastilla au poulet et amandes : Feuilles croustillantes, amandes, cannelle et sucre glace. (confirmé)
+- Pastilla aux fruits de mer : Crevettes, citron, servie en entrée. (à valider)
+- Tajine d'agneau aux pruneaux : Abricots, amandes grillées, sésame. (à valider)
+- Poulet au citron confit et olives : Le classique des grandes tablées, servi en plat. (à valider)
+- Méchoui : Pièce d'agneau rôtie présentée en salle, légumes et cumin. (à valider)
+- Table des douceurs : Pâtisseries aux amandes, dattes et lait d'amande. (à valider)
+
+### Animations (`data/animations.json`)
+
+- Bar à mocktails : citée dans une légende ; prix à remplir
+- Service du thé à la menthe : vue en photo, à confirmer ; prix à remplir
+- Méchoui présenté en salle : vue en photo, à confirmer ; prix à remplir
+- Plateaux de fruits : vue en photo, à confirmer ; prix à remplir
+
+### Réalisations (`data/realisations.json`)
+
+| Réalisation | Date | Lieu | Invités | Source |
+|---|---|---|---|---|
+| Halah & Achraf | 2026-09 | à remplir | à remplir | https://www.instagram.com/reel/Dew_khgoM9z/ |
+| Yanis & Myriam | 2026-10 | à remplir | à remplir | https://www.instagram.com/reel/Deul8tGoVdF/ |
+| Le premier anniversaire de Zayn | 2026-10 | à remplir | à remplir | https://www.instagram.com/reel/DeM7zFsIemd/ |
+| Réception sous chapiteau | 2026-05 | à remplir | à remplir | https://www.instagram.com/reel/DZF_TjZIEen/ |
+| Mariage au Domaine du Grand Morin | 2025-11 | Domaine du Grand Morin (77) | à remplir | https://www.instagram.com/reel/DRAfB21CKYz/ |
+| Lina & Hamza | 2025-05 | à remplir | à remplir | https://www.instagram.com/reel/DJkJbctoWpb/ |
+
+### Avis (`data/avis.json`)
+
+Aucun avis affiché : la story « AVIS » n'est pas lisible sans connexion à Instagram. À recopier fidèlement (prénom, type d'événement, texte). Aucun avis n'a été inventé.
+
+## Tous les textes (FR · AR · EN)
+
+### meta
+
+- `meta.title`
+  - FR : Traiteur mariage et réception en Île-de-France – cuisine européenne et marocaine | Maison ZH
+  - AR : ممون حفلات الأعراس والاستقبالات في إيل دو فرانس – مطبخ أوروبي ومغربي | Maison ZH
+  - EN : Wedding and event caterer in Île-de-France – European and Moroccan cuisine | Maison ZH
+- `meta.description`
+  - FR : Maison ZH, traiteur haut de gamme pour vos mariages, réceptions et événements d'entreprise en Île-de-France. Gastronomie européenne et tradition marocaine, buffets, repas servis, chef à domicile. Devis sur WhatsApp.
+  - AR : ميزون ZH، ممون راقٍ لحفلات الأعراس والاستقبالات ومناسبات الشركات في باريس وإيل دو فرانس. فن الطبخ الأوروبي وأصالة المطبخ المغربي، بوفيهات، وجبات مقدَّمة على الطاولة، وطاهٍ في المنزل. اطلبوا عرض السعر عبر واتساب.
+  - EN : Maison ZH, high-end caterer for weddings, receptions and corporate events around Paris and Île-de-France. Refined European cooking and Moroccan tradition, buffets, plated dinners, private chef. Quotes on WhatsApp.
+- `meta.formulesTitle`
+  - FR : Formules et menus : cocktail, buffet, repas servi, menu marocain | Maison ZH
+  - AR : الباقات وقوائم الطعام: كوكتيل، بوفيه، وجبة مقدَّمة، قائمة مغربية | Maison ZH
+  - EN : Packages and menus: cocktail, buffet, plated dinner, Moroccan menu | Maison ZH
+- `meta.formulesDescription`
+  - FR : Les formules de Maison ZH pour les mariages et réceptions en Île-de-France : cocktail, buffet, repas servi, menu marocain, menu mixte et chef à domicile. Plats signature et animations.
+  - AR : باقات ميزون ZH للأعراس والاستقبالات في إيل دو فرانس: كوكتيل، بوفيه، وجبة مقدَّمة، قائمة مغربية، قائمة مختلطة وطاهٍ في المنزل. أطباق مميزة وعروض حية.
+  - EN : Maison ZH packages for weddings and receptions in Île-de-France: cocktail, buffet, plated dinner, Moroccan menu, mixed menu and private chef. Signature dishes and live stations.
+- `meta.legalTitle`
+  - FR : Mentions légales | Maison ZH
+  - AR : الإشعارات القانونية | Maison ZH
+  - EN : Legal notice | Maison ZH
+- `meta.legalDescription`
+  - FR : Mentions légales et données personnelles du site de Maison ZH, traiteur en Île-de-France.
+  - AR : الإشعارات القانونية والبيانات الشخصية لموقع ميزون ZH، ممون الحفلات في إيل دو فرانس.
+  - EN : Legal notice and personal data for the Maison ZH website, caterer in Île-de-France.
+
+### nav
+
+- `nav.skip`
+  - FR : Aller au contenu
+  - AR : الانتقال إلى المحتوى
+  - EN : Skip to content
+- `nav.menu`
+  - FR : Menu
+  - AR : القائمة
+  - EN : Menu
+- `nav.close`
+  - FR : Fermer le menu
+  - AR : إغلاق القائمة
+  - EN : Close menu
+- `nav.home`
+  - FR : Maison ZH, accueil
+  - AR : ميزون ZH، الصفحة الرئيسية
+  - EN : Maison ZH, home
+- `nav.mariages`
+  - FR : Mariages
+  - AR : الأعراس
+  - EN : Weddings
+- `nav.receptions`
+  - FR : Réceptions
+  - AR : الاستقبالات
+  - EN : Receptions
+- `nav.entreprises`
+  - FR : Entreprises
+  - AR : الشركات
+  - EN : Corporate
+- `nav.domicile`
+  - FR : Chef à domicile
+  - AR : طاهٍ في المنزل
+  - EN : Private chef
+- `nav.realisations`
+  - FR : Réalisations
+  - AR : أعمالنا
+  - EN : Our events
+- `nav.formules`
+  - FR : Formules et menus
+  - AR : الباقات والقوائم
+  - EN : Packages and menus
+- `nav.contact`
+  - FR : Contact
+  - AR : تواصل معنا
+  - EN : Contact
+- `nav.quote`
+  - FR : Demander un devis
+  - AR : اطلب عرض سعر
+  - EN : Request a quote
+- `nav.quoteShort`
+  - FR : Devis
+  - AR : عرض سعر
+  - EN : Quote
+- `nav.language`
+  - FR : Langue
+  - AR : اللغة
+  - EN : Language
+- `nav.call`
+  - FR : Appeler Maison ZH
+  - AR : الاتصال بميزون ZH
+  - EN : Call Maison ZH
+
+### intro
+
+- `intro.skip`
+  - FR : Passer
+  - AR : تخطٍّ
+  - EN : Skip
+
+### announce
+
+- `announce.close`
+  - FR : Fermer l'information
+  - AR : إغلاق الإعلان
+  - EN : Close notice
+
+### hero
+
+- `hero.eyebrow`
+  - FR : Traiteur · Mariages & réceptions · Île-de-France
+  - AR : ممون حفلات · أعراس واستقبالات · إيل دو فرانس
+  - EN : Caterer · Weddings & receptions · Paris region
+- `hero.title`
+  - FR : Deux cuisines, une seule exigence
+  - AR : مطبخان، ومعيار واحد
+  - EN : Two cuisines, one standard
+- `hero.text`
+  - FR : La finesse de la gastronomie européenne et la générosité de la grande table marocaine, réunies pour vos mariages, vos réceptions et vos dîners privés.
+  - AR : رقيّ فن الطبخ الأوروبي وكرم المائدة المغربية الكبيرة، يجتمعان في أعراسكم واستقبالاتكم وعشاءاتكم الخاصة.
+  - EN : The finesse of European gastronomy and the generosity of the great Moroccan table, brought together for your weddings, receptions and private dinners.
+- `hero.guestsLabel`
+  - FR : Combien d'invités ?
+  - AR : كم عدد الضيوف؟
+  - EN : How many guests?
+- `hero.cta`
+  - FR : Demander un devis
+  - AR : اطلب عرض سعر
+  - EN : Request a quote
+- `hero.whatsapp`
+  - FR : WhatsApp
+  - AR : واتساب
+  - EN : WhatsApp
+- `hero.alt`
+  - FR : Buffet de mariage Maison ZH dressé sur nappe vert sauge dans le jardin d'un château
+  - AR : بوفيه عرس من ميزون ZH على مفرش أخضر في حديقة قصر
+  - EN : Maison ZH wedding buffet laid on a sage-green tablecloth in a château garden
+- `hero.proof`
+  - FR : {n} abonnés suivent nos tables sur Instagram
+  - AR : {n} متابع يتابعون موائدنا على إنستغرام
+  - EN : {n} followers enjoy our tables on Instagram
+
+### prestations
+
+- `prestations.eyebrow`
+  - FR : Nos prestations
+  - AR : خدماتنا
+  - EN : What we do
+- `prestations.title`
+  - FR : Pour quelle occasion ?
+  - AR : ما هي مناسبتكم؟
+  - EN : What are you celebrating?
+- `prestations.more`
+  - FR : Découvrir
+  - AR : اكتشف
+  - EN : Discover
+- `prestations.items.0.id`
+  - FR : mariage
+  - AR : mariage
+  - EN : mariage
+- `prestations.items.0.name`
+  - FR : Mariage
+  - AR : العرس
+  - EN : Wedding
+- `prestations.items.0.text`
+  - FR : Cocktail, buffet ou repas servi, du vin d'honneur au gâteau.
+  - AR : كوكتيل أو بوفيه أو وجبة مقدَّمة، من الاستقبال حتى قطع الكعكة.
+  - EN : Cocktail, buffet or plated dinner, from the drinks reception to the cake.
+- `prestations.items.1.id`
+  - FR : reception
+  - AR : reception
+  - EN : reception
+- `prestations.items.1.name`
+  - FR : Réception et fête de famille
+  - AR : الاستقبالات والحفلات العائلية
+  - EN : Receptions and family parties
+- `prestations.items.1.text`
+  - FR : Fiançailles, henné, baptême, anniversaire : une table à la hauteur.
+  - AR : خطوبة، حنّاء، عقيقة، عيد ميلاد: مائدة تليق بالمناسبة.
+  - EN : Engagements, henna nights, christenings, birthdays: a table to match.
+- `prestations.items.2.id`
+  - FR : entreprise
+  - AR : entreprise
+  - EN : entreprise
+- `prestations.items.2.name`
+  - FR : Entreprise
+  - AR : الشركات
+  - EN : Corporate
+- `prestations.items.2.text`
+  - FR : Cocktails, séminaires et soirées clients, en cuisine maison.
+  - AR : كوكتيلات وندوات وأمسيات للعملاء، بطبخ منزلي.
+  - EN : Cocktails, seminars and client evenings, all home-made.
+- `prestations.items.3.id`
+  - FR : domicile
+  - AR : domicile
+  - EN : domicile
+- `prestations.items.3.name`
+  - FR : Chef à domicile
+  - AR : طاهٍ في المنزل
+  - EN : Private chef
+- `prestations.items.3.text`
+  - FR : Un repas gastronomique préparé et servi chez vous, dès 4 personnes.
+  - AR : وجبة راقية تُحضَّر وتُقدَّم في بيتكم، ابتداءً من 4 أشخاص.
+  - EN : A fine-dining meal cooked and served in your home, from 4 guests.
+
+### engagements
+
+- `engagements.label`
+  - FR : Nos engagements
+  - AR : التزاماتنا
+  - EN : Our promises
+- `engagements.items.0.id`
+  - FR : maison
+  - AR : maison
+  - EN : maison
+- `engagements.items.0.title`
+  - FR : Tout est fait maison
+  - AR : كل شيء من صنعنا
+  - EN : Everything home-made
+- `engagements.items.0.text`
+  - FR : Menus pensés pour l'occasion, produits sélectionnés, préparation par notre équipe.
+  - AR : قوائم مصممة للمناسبة، منتجات مختارة، وتحضير على يد فريقنا.
+  - EN : Menus designed for the occasion, carefully sourced produce, cooked by our own team.
+- `engagements.items.1.id`
+  - FR : cuisines
+  - AR : cuisines
+  - EN : cuisines
+- `engagements.items.1.title`
+  - FR : Deux traditions
+  - AR : تقليدان
+  - EN : Two traditions
+- `engagements.items.1.text`
+  - FR : Cuisine européenne raffinée et grande cuisine marocaine, seules ou réunies.
+  - AR : مطبخ أوروبي راقٍ ومطبخ مغربي أصيل، كلٌّ على حدة أو معًا.
+  - EN : Refined European cooking and grand Moroccan cuisine, on their own or together.
+- `engagements.items.2.id`
+  - FR : service
+  - AR : service
+  - EN : service
+- `engagements.items.2.title`
+  - FR : Service et installation
+  - AR : الخدمة والتجهيز
+  - EN : Service and set-up
+- `engagements.items.2.text`
+  - FR : Dressage des buffets, service à l'assiette, équipe en salle.
+  - AR : تنسيق البوفيهات، تقديم الأطباق، وفريق في القاعة.
+  - EN : Buffets laid out, plated service, staff in the room.
+- `engagements.items.3.id`
+  - FR : devis
+  - AR : devis
+  - EN : devis
+- `engagements.items.3.title`
+  - FR : Un devis sur mesure
+  - AR : عرض سعر على المقاس
+  - EN : A tailored quote
+- `engagements.items.3.text`
+  - FR : Votre demande arrive sur notre WhatsApp, nous vous répondons avec une proposition claire.
+  - AR : يصلنا طلبكم على واتساب، ونرد عليكم باقتراح واضح.
+  - EN : Your request lands on our WhatsApp and we reply with a clear proposal.
+
+### univers
+
+- `univers.eyebrow`
+  - FR : Nos deux univers
+  - AR : عالمانا
+  - EN : Two worlds
+- `univers.title`
+  - FR : La table française, l'âme marocaine
+  - AR : المائدة الفرنسية بروح مغربية
+  - EN : French finesse, Moroccan soul
+- `univers.text`
+  - FR : Choisissez l'une ou l'autre, ou mariez-les : beaucoup de nos clients ouvrent sur une pastilla et terminent sur une pavlova.
+  - AR : اختاروا أحدهما أو اجمعوا بينهما: كثير من زبائننا يبدؤون بالبسطيلة ويختمون بالبافلوفا.
+  - EN : Choose one or bring them together: many of our clients open with a pastilla and finish with a pavlova.
+- `univers.toConfirm`
+  - FR : Plats signature tirés de nos réalisations ; la carte complète vous est envoyée avec le devis.
+  - AR : أطباق مميزة من حفلاتنا الأخيرة؛ القائمة الكاملة تصلكم مع عرض السعر.
+  - EN : Signature dishes from our recent events; the full menu comes with your quote.
+- `univers.europeen.name`
+  - FR : Gastronomie européenne
+  - AR : فن الطبخ الأوروبي
+  - EN : European gastronomy
+- `univers.europeen.text`
+  - FR : Assiettes dressées, cuissons longues, desserts légers : une cuisine précise, servie à table ou en buffet.
+  - AR : أطباق منسقة، طهي هادئ، حلويات خفيفة: مطبخ دقيق يُقدَّم على الطاولة أو في بوفيه.
+  - EN : Plated dishes, slow cooking, light desserts: precise cooking, served at the table or as a buffet.
+- `univers.europeen.cta`
+  - FR : Voir le menu européen
+  - AR : القائمة الأوروبية
+  - EN : See the European menu
+- `univers.marocain.name`
+  - FR : Tradition marocaine
+  - AR : التقاليد المغربية
+  - EN : Moroccan tradition
+- `univers.marocain.text`
+  - FR : Pastillas, tajines aux fruits secs, méchoui, thé à la menthe : la grande table des fêtes marocaines.
+  - AR : بسطيلة، طواجن بالفواكه الجافة، مشوي، أتاي بالنعناع: مائدة الأفراح المغربية الكبيرة.
+  - EN : Pastillas, tagines with dried fruit, mechoui, mint tea: the great table of Moroccan celebrations.
+- `univers.marocain.cta`
+  - FR : Voir le menu marocain
+  - AR : القائمة المغربية
+  - EN : See the Moroccan menu
+- `univers.dishes.tartare.name`
+  - FR : Tartare mangue et avocat
+  - AR : تارتار المانجو والأفوكادو
+  - EN : Mango and avocado tartare
+- `univers.dishes.tartare.text`
+  - FR : Entrée fraîche en cercle, fleurs comestibles.
+  - AR : مقبلات منعشة مزينة بالزهور الصالحة للأكل.
+  - EN : A fresh ring-moulded starter with edible flowers.
+- `univers.dishes.agneau.name`
+  - FR : Agneau confit, purée de carotte
+  - AR : لحم خروف مطهو ببطء مع هريس الجزر
+  - EN : Slow-cooked lamb, carrot purée
+- `univers.dishes.agneau.text`
+  - FR : Cuisson longue, jus réduit, herbes fraîches.
+  - AR : طهي طويل، صلصة مركّزة، أعشاب طازجة.
+  - EN : Long braise, reduced jus, fresh herbs.
+- `univers.dishes.roti.name`
+  - FR : Rôti et ses accompagnements
+  - AR : لحم مشوي مع مرافقاته
+  - EN : Roast with its trimmings
+- `univers.dishes.roti.text`
+  - FR : Servi à l'assiette, légumes glacés et sauce maison.
+  - AR : يُقدَّم في الطبق مع خضار مُلمَّعة وصلصة منزلية.
+  - EN : Plated, with glazed vegetables and house sauce.
+- `univers.dishes.volaille.name`
+  - FR : Suprême de volaille
+  - AR : صدر دجاج فاخر
+  - EN : Chicken supreme
+- `univers.dishes.volaille.text`
+  - FR : Purée onctueuse, carottes rôties, fagot de haricots verts.
+  - AR : هريس ناعم، جزر محمّص، وحزمة فاصولياء خضراء.
+  - EN : Silky mash, roasted carrots, green bean bundle.
+- `univers.dishes.pavlova.name`
+  - FR : Pavlova aux fruits rouges
+  - AR : بافلوفا بالفواكه الحمراء
+  - EN : Red berry pavlova
+- `univers.dishes.pavlova.text`
+  - FR : Meringue croustillante, crème légère, coulis de fruits rouges.
+  - AR : مرنغ مقرمش، كريمة خفيفة، صلصة الفواكه الحمراء.
+  - EN : Crisp meringue, light cream, berry coulis.
+- `univers.dishes.dome.name`
+  - FR : Dôme chocolat et fruits rouges
+  - AR : قبة الشوكولاتة والفواكه الحمراء
+  - EN : Chocolate and red berry dome
+- `univers.dishes.dome.text`
+  - FR : Dessert à l'assiette, dentelle de chocolat.
+  - AR : حلوى في الطبق داخل دانتيل من الشوكولاتة.
+  - EN : A plated dessert in a chocolate lace case.
+- `univers.dishes.pastillaPoulet.name`
+  - FR : Pastilla au poulet et amandes
+  - AR : بسطيلة الدجاج واللوز
+  - EN : Chicken and almond pastilla
+- `univers.dishes.pastillaPoulet.text`
+  - FR : Feuilles croustillantes, amandes, cannelle et sucre glace.
+  - AR : أوراق مقرمشة، لوز، قرفة وسكر ناعم.
+  - EN : Crisp pastry, almonds, cinnamon and icing sugar.
+- `univers.dishes.pastillaMer.name`
+  - FR : Pastilla aux fruits de mer
+  - AR : بسطيلة فواكه البحر
+  - EN : Seafood pastilla
+- `univers.dishes.pastillaMer.text`
+  - FR : Crevettes, citron, servie en entrée.
+  - AR : قمرون وليمون، تُقدَّم كمقبّلات.
+  - EN : Prawns and lemon, served as a starter.
+- `univers.dishes.tajinePruneaux.name`
+  - FR : Tajine d'agneau aux pruneaux
+  - AR : طاجين اللحم بالبرقوق
+  - EN : Lamb tagine with prunes
+- `univers.dishes.tajinePruneaux.text`
+  - FR : Abricots, amandes grillées, sésame.
+  - AR : مشمش، لوز محمّص، سمسم.
+  - EN : Apricots, toasted almonds, sesame.
+- `univers.dishes.pouletCitron.name`
+  - FR : Poulet au citron confit et olives
+  - AR : دجاج بالحامض المرقد والزيتون
+  - EN : Chicken with preserved lemon and olives
+- `univers.dishes.pouletCitron.text`
+  - FR : Le classique des grandes tablées, servi en plat.
+  - AR : طبق الموائد الكبيرة الكلاسيكي، يُقدَّم كطبق رئيسي.
+  - EN : The classic of big celebrations, served as a main.
+- `univers.dishes.mechoui.name`
+  - FR : Méchoui
+  - AR : المشوي
+  - EN : Mechoui
+- `univers.dishes.mechoui.text`
+  - FR : Pièce d'agneau rôtie présentée en salle, légumes et cumin.
+  - AR : خروف مشوي يُقدَّم في القاعة مع الخضار والكمون.
+  - EN : Roast lamb brought into the room, vegetables and cumin.
+- `univers.dishes.douceurs.name`
+  - FR : Table des douceurs
+  - AR : مائدة الحلويات
+  - EN : Sweet table
+- `univers.dishes.douceurs.text`
+  - FR : Pâtisseries aux amandes, dattes et lait d'amande.
+  - AR : حلويات باللوز، تمر وحليب اللوز.
+  - EN : Almond pastries, dates and almond milk.
+
+### formules
+
+- `formules.eyebrow`
+  - FR : Formules
+  - AR : الباقات
+  - EN : Packages
+- `formules.title`
+  - FR : Une formule pour chaque réception
+  - AR : باقة لكل مناسبة
+  - EN : A package for every reception
+- `formules.text`
+  - FR : Chaque devis est établi selon votre date, votre lieu et le nombre d'invités. Les prix détaillés vous sont envoyés avec le devis.
+  - AR : يُعَدّ كل عرض سعر حسب التاريخ والمكان وعدد الضيوف. تصلكم الأسعار المفصّلة مع عرض السعر.
+  - EN : Every quote is based on your date, venue and number of guests. Detailed prices come with your quote.
+- `formules.from`
+  - FR : À partir de
+  - AR : ابتداءً من
+  - EN : From
+- `formules.perPerson`
+  - FR : / pers.
+  - AR : / للشخص
+  - EN : / guest
+- `formules.onQuote`
+  - FR : Sur devis
+  - AR : حسب الطلب
+  - EN : On request
+- `formules.minGuests`
+  - FR : Dès {n} invités
+  - AR : ابتداءً من {n} ضيفًا
+  - EN : From {n} guests
+- `formules.minPeople`
+  - FR : Dès {n} personnes
+  - AR : ابتداءً من {n} أشخاص
+  - EN : From {n} people
+- `formules.minGuestsTbc`
+  - FR : Minimum à préciser
+  - AR : الحد الأدنى يُحدَّد لاحقًا
+  - EN : Minimum to be confirmed
+- `formules.choose`
+  - FR : Demander cette formule
+  - AR : اطلب هذه الباقة
+  - EN : Ask about this package
+- `formules.seeAll`
+  - FR : Toutes les formules et les menus
+  - AR : كل الباقات والقوائم
+  - EN : All packages and menus
+- `formules.pageEyebrow`
+  - FR : Formules et menus
+  - AR : الباقات والقوائم
+  - EN : Packages and menus
+- `formules.pageTitle`
+  - FR : Nos formules, nos menus
+  - AR : باقاتنا وقوائمنا
+  - EN : Our packages, our menus
+- `formules.pageIntro`
+  - FR : Du cocktail de bienvenue au repas servi à l'assiette, en cuisine européenne, marocaine ou mixte. Chaque menu est ajusté à votre réception.
+  - AR : من كوكتيل الاستقبال إلى الوجبة المقدَّمة على الطاولة، بمطبخ أوروبي أو مغربي أو مختلط. كل قائمة تُعدَّل حسب مناسبتكم.
+  - EN : From the welcome cocktail to the plated dinner, in European, Moroccan or mixed cuisine. Every menu is shaped around your reception.
+- `formules.pageNote`
+  - FR : Les prix sont indiqués par personne, hors frais de déplacement éventuels. Service, vaisselle et installation sont détaillés dans le devis.
+  - AR : الأسعار للشخص الواحد، دون مصاريف التنقل إن وُجدت. الخدمة والأواني والتجهيز مفصّلة في عرض السعر.
+  - EN : Prices are per guest, excluding any travel costs. Service, tableware and set-up are detailed in the quote.
+- `formules.menusTitle`
+  - FR : Les plats signature
+  - AR : الأطباق المميزة
+  - EN : Signature dishes
+- `formules.menusText`
+  - FR : Une sélection tirée de nos dernières réceptions. Le menu de votre événement se construit avec vous.
+  - AR : مختارات من حفلاتنا الأخيرة. قائمة مناسبتكم نبنيها معكم.
+  - EN : A selection from our latest receptions. The menu for your event is built with you.
+- `formules.items.cocktail.name`
+  - FR : Cocktail
+  - AR : كوكتيل
+  - EN : Cocktail
+- `formules.items.cocktail.text`
+  - FR : Pour un vin d'honneur ou une réception debout.
+  - AR : لاستقبال الضيوف أو لحفل وقوفًا.
+  - EN : For a drinks reception or a standing event.
+- `formules.items.cocktail.includes.0`
+  - FR : Bouchées salées et sucrées
+  - AR : لقيمات مالحة وحلوة
+  - EN : Savoury and sweet bites
+- `formules.items.cocktail.includes.1`
+  - FR : Bar à mocktails
+  - AR : ركن مشروبات بلا كحول
+  - EN : Mocktail bar
+- `formules.items.cocktail.includes.2`
+  - FR : Présentation sur buffet dressé
+  - AR : عرض على بوفيه منسّق
+  - EN : Styled buffet display
+- `formules.items.buffet.name`
+  - FR : Buffet
+  - AR : بوفيه
+  - EN : Buffet
+- `formules.items.buffet.text`
+  - FR : Un grand buffet généreux, entrée, plat et dessert.
+  - AR : بوفيه سخي: مقبلات وطبق رئيسي وحلوى.
+  - EN : A generous buffet: starter, main and dessert.
+- `formules.items.buffet.includes.0`
+  - FR : Buffet dressé et décoré
+  - AR : بوفيه منسّق ومزيّن
+  - EN : Styled, decorated buffet
+- `formules.items.buffet.includes.1`
+  - FR : Entrées, plats chauds, desserts
+  - AR : مقبلات وأطباق ساخنة وحلويات
+  - EN : Starters, hot dishes, desserts
+- `formules.items.buffet.includes.2`
+  - FR : Plateaux de fruits
+  - AR : أطباق فواكه
+  - EN : Fruit platters
+- `formules.items.servi.name`
+  - FR : Repas servi
+  - AR : وجبة مقدَّمة
+  - EN : Plated dinner
+- `formules.items.servi.text`
+  - FR : Le repas à l'assiette, servi à table par notre équipe.
+  - AR : وجبة في الأطباق يقدّمها فريقنا على الطاولة.
+  - EN : A plated meal served at the table by our team.
+- `formules.items.servi.includes.0`
+  - FR : Entrée, plat, dessert
+  - AR : مقبلات، طبق رئيسي، حلوى
+  - EN : Starter, main, dessert
+- `formules.items.servi.includes.1`
+  - FR : Dressage à l'assiette
+  - AR : تنسيق في الطبق
+  - EN : Plated presentation
+- `formules.items.servi.includes.2`
+  - FR : Service en salle
+  - AR : خدمة في القاعة
+  - EN : Table service
+- `formules.items.marocain.name`
+  - FR : Menu marocain
+  - AR : قائمة مغربية
+  - EN : Moroccan menu
+- `formules.items.marocain.text`
+  - FR : La grande table marocaine, de la pastilla au thé à la menthe.
+  - AR : المائدة المغربية الكبيرة، من البسطيلة إلى أتاي بالنعناع.
+  - EN : The great Moroccan table, from pastilla to mint tea.
+- `formules.items.marocain.includes.0`
+  - FR : Pastilla en entrée
+  - AR : بسطيلة كمقبّلات
+  - EN : Pastilla to start
+- `formules.items.marocain.includes.1`
+  - FR : Tajine ou méchoui
+  - AR : طاجين أو مشوي
+  - EN : Tagine or mechoui
+- `formules.items.marocain.includes.2`
+  - FR : Douceurs et thé à la menthe
+  - AR : حلويات وأتاي بالنعناع
+  - EN : Sweets and mint tea
+- `formules.items.mixte.name`
+  - FR : Menu mixte
+  - AR : قائمة مختلطة
+  - EN : Mixed menu
+- `formules.items.mixte.text`
+  - FR : Les deux univers dans le même repas, selon vos envies.
+  - AR : العالمان في وجبة واحدة، حسب رغبتكم.
+  - EN : Both worlds in a single meal, as you wish.
+- `formules.items.mixte.includes.0`
+  - FR : Entrée marocaine ou européenne
+  - AR : مقبلات مغربية أو أوروبية
+  - EN : Moroccan or European starter
+- `formules.items.mixte.includes.1`
+  - FR : Plat au choix
+  - AR : طبق رئيسي حسب الاختيار
+  - EN : Main of your choice
+- `formules.items.mixte.includes.2`
+  - FR : Dessert à l'assiette
+  - AR : حلوى في الطبق
+  - EN : Plated dessert
+- `formules.items.domicile.name`
+  - FR : Chef à domicile
+  - AR : طاهٍ في المنزل
+  - EN : Private chef
+- `formules.items.domicile.text`
+  - FR : Un repas gastronomique préparé, dressé et servi chez vous.
+  - AR : وجبة راقية تُحضَّر وتُنسَّق وتُقدَّم في بيتكم.
+  - EN : A fine-dining meal cooked, plated and served in your home.
+- `formules.items.domicile.includes.0`
+  - FR : Menu élaboré avec vous
+  - AR : قائمة نعدّها معكم
+  - EN : Menu designed with you
+- `formules.items.domicile.includes.1`
+  - FR : Préparation sur place
+  - AR : تحضير في المكان
+  - EN : Cooked on site
+- `formules.items.domicile.includes.2`
+  - FR : Dressage et service
+  - AR : تنسيق وتقديم
+  - EN : Plating and service
+
+### animations
+
+- `animations.eyebrow`
+  - FR : Le show
+  - AR : العروض
+  - EN : The show
+- `animations.title`
+  - FR : Des animations qui se regardent
+  - AR : لمسات حية تجذب الأنظار
+  - EN : Live touches your guests will watch
+- `animations.text`
+  - FR : Un bar à mocktails à l'arrivée des invités, le service du thé, le méchoui présenté en salle : de quoi rythmer votre réception.
+  - AR : ركن مشروبات عند وصول الضيوف، تقديم أتاي بالنعناع، المشوي يُحمَل إلى القاعة: لحظات تمنح حفلكم إيقاعه.
+  - EN : A mocktail bar as guests arrive, mint tea poured at the table, the mechoui carried into the room: moments that set the pace of your evening.
+- `animations.onQuote`
+  - FR : Sur devis
+  - AR : حسب الطلب
+  - EN : On request
+- `animations.cta`
+  - FR : Ajouter une animation
+  - AR : أضف عرضًا حيًّا
+  - EN : Add a live station
+- `animations.items.mocktails.name`
+  - FR : Bar à mocktails
+  - AR : ركن المشروبات بلا كحول
+  - EN : Mocktail bar
+- `animations.items.mocktails.text`
+  - FR : Préparés à la minute pour le cocktail de bienvenue.
+  - AR : تُحضَّر في اللحظة لكوكتيل الاستقبال.
+  - EN : Made to order for the welcome cocktail.
+- `animations.items.the.name`
+  - FR : Service du thé à la menthe
+  - AR : تقديم أتاي بالنعناع
+  - EN : Mint tea service
+- `animations.items.the.text`
+  - FR : Versé en hauteur, dans les verres dorés.
+  - AR : يُسكب من عُلوّ في كؤوس مذهّبة.
+  - EN : Poured from a height into gold-rimmed glasses.
+- `animations.items.mechoui.name`
+  - FR : Méchoui présenté en salle
+  - AR : المشوي في القاعة
+  - EN : Mechoui served in the room
+- `animations.items.mechoui.text`
+  - FR : La pièce d'agneau portée jusqu'aux tables.
+  - AR : الخروف المشوي يُحمَل حتى الطاولات.
+  - EN : The roast lamb carried to the tables.
+- `animations.items.fruits.name`
+  - FR : Plateaux de fruits
+  - AR : أطباق الفواكه
+  - EN : Fruit platters
+- `animations.items.fruits.text`
+  - FR : Fruits frais taillés et dressés pour la fin de soirée.
+  - AR : فواكه طازجة مقطّعة ومنسّقة لختام السهرة.
+  - EN : Fresh fruit cut and arranged for the end of the night.
+
+### blocks
+
+- `blocks.0.eyebrow`
+  - FR : La cuisine
+  - AR : المطبخ
+  - EN : The cooking
+- `blocks.0.title`
+  - FR : Fait maison, des deux côtés de la Méditerranée
+  - AR : من صنع أيدينا، من ضفّتي المتوسط
+  - EN : Home-made, from both shores of the Mediterranean
+- `blocks.0.text`
+  - FR : Nous élaborons chaque menu, sélectionnons les produits et préparons tout nous-mêmes. Une pastilla feuilletée à la main peut côtoyer une souris d'agneau confite : c'est ce mélange qui fait notre table.
+  - AR : نعدّ كل قائمة ونختار المنتجات ونحضّر كل شيء بأنفسنا. قد تجاور البسطيلة المطويّة باليد لحمَ خروف مطهوًّا ببطء: هذا المزيج هو ما يميّز مائدتنا.
+  - EN : We design every menu, choose the produce and cook everything ourselves. A hand-folded pastilla can sit beside slow-cooked lamb: that blend is what makes our table.
+- `blocks.0.cta`
+  - FR : Voir les menus
+  - AR : القوائم
+  - EN : See the menus
+- `blocks.1.eyebrow`
+  - FR : Le jour J
+  - AR : يوم الحفل
+  - EN : The big day
+- `blocks.1.title`
+  - FR : Le jour du mariage, on s'occupe de tout
+  - AR : يوم عرسكم، نتكفّل بكل شيء
+  - EN : On your wedding day, we take care of everything
+- `blocks.1.text`
+  - FR : Buffet dressé avant l'arrivée des invités, assiettes envoyées en même temps à toutes les tables, équipe en salle jusqu'au gâteau. Vous profitez, nous servons.
+  - AR : بوفيه جاهز قبل وصول الضيوف، أطباق تصل إلى جميع الطاولات في آن واحد، وفريق في القاعة حتى الكعكة. استمتعوا، ونحن نخدم.
+  - EN : Buffet set before guests arrive, plates sent to every table at once, staff in the room until the cake. You enjoy, we serve.
+- `blocks.1.cta`
+  - FR : Voir les réalisations
+  - AR : أعمالنا
+  - EN : See our events
+- `blocks.2.eyebrow`
+  - FR : Entreprises
+  - AR : الشركات
+  - EN : Corporate
+- `blocks.2.title`
+  - FR : Vos événements professionnels, avec le même soin
+  - AR : مناسبات عملكم، بالعناية نفسها
+  - EN : Your business events, with the same care
+- `blocks.2.text`
+  - FR : Cocktail de lancement, séminaire, soirée clients : bouchées raffinées, buffets ou plateaux, livrés ou servis sur place.
+  - AR : كوكتيل إطلاق، ندوة، أمسية للعملاء: لقيمات راقية وبوفيهات وصوانٍ، توصيلًا أو تقديمًا في المكان.
+  - EN : Launch cocktail, seminar, client evening: refined bites, buffets or platters, delivered or served on site.
+- `blocks.2.cta`
+  - FR : Demander un devis
+  - AR : اطلب عرض سعر
+  - EN : Request a quote
+
+### stats
+
+- `stats.label`
+  - FR : Maison ZH en chiffres
+  - AR : ميزون ZH بالأرقام
+  - EN : Maison ZH in numbers
+- `stats.items.0.value`
+  - FR : 25 500
+  - AR : 25 500
+  - EN : 25,500
+- `stats.items.0.label`
+  - FR : abonnés suivent nos réceptions sur Instagram
+  - AR : متابع يتابعون حفلاتنا على إنستغرام
+  - EN : followers watch our receptions on Instagram
+- `stats.items.1.value`
+  - FR : 2
+  - AR : 2
+  - EN : 2
+- `stats.items.1.label`
+  - FR : traditions culinaires, européenne et marocaine
+  - AR : تقليدان في الطبخ، أوروبي ومغربي
+  - EN : culinary traditions, European and Moroccan
+- `stats.items.2.value`
+  - FR : 4
+  - AR : 4
+  - EN : 4
+- `stats.items.2.label`
+  - FR : couverts suffisent pour réserver le chef à domicile
+  - AR : أشخاص يكفون لحجز الطاهي في المنزل
+  - EN : guests are enough to book the private chef
+
+### realisations
+
+- `realisations.eyebrow`
+  - FR : Réalisations
+  - AR : أعمالنا
+  - EN : Our events
+- `realisations.title`
+  - FR : Nos dernières réceptions
+  - AR : آخر حفلاتنا
+  - EN : Our latest receptions
+- `realisations.text`
+  - FR : Mariages, réceptions et repas privés que nous avons eu la joie de servir.
+  - AR : أعراس واستقبالات ووجبات خاصة سعدنا بخدمتها.
+  - EN : Weddings, receptions and private dinners we had the joy of serving.
+- `realisations.guests`
+  - FR : {n} invités
+  - AR : {n} ضيفًا
+  - EN : {n} guests
+- `realisations.see`
+  - FR : Voir sur Instagram
+  - AR : شاهد على إنستغرام
+  - EN : View on Instagram
+- `realisations.more`
+  - FR : Toutes nos réalisations sur Instagram
+  - AR : كل أعمالنا على إنستغرام
+  - EN : All our events on Instagram
+- `realisations.types.mariage`
+  - FR : Mariage
+  - AR : عرس
+  - EN : Wedding
+- `realisations.types.reception`
+  - FR : Réception
+  - AR : استقبال
+  - EN : Reception
+- `realisations.types.domicile`
+  - FR : Chef à domicile
+  - AR : طاهٍ في المنزل
+  - EN : Private chef
+- `realisations.types.entreprise`
+  - FR : Entreprise
+  - AR : شركة
+  - EN : Corporate
+- `realisations.items.halah.title`
+  - FR : Halah & Achraf
+  - AR : هالة وأشرف
+  - EN : Halah & Achraf
+- `realisations.items.halah.text`
+  - FR : Mariage en plein air, buffet dressé dans un parc, méchoui et plateaux de fruits.
+  - AR : عرس في الهواء الطلق، بوفيه في حديقة، مشوي وأطباق فواكه.
+  - EN : Outdoor wedding, buffet set in a park, mechoui and fruit platters.
+- `realisations.items.yanis.title`
+  - FR : Yanis & Myriam
+  - AR : يانيس ومريم
+  - EN : Yanis & Myriam
+- `realisations.items.yanis.text`
+  - FR : Cocktail de bienvenue au château, bar à mocktails, entrée, plat et dessert.
+  - AR : كوكتيل استقبال في قصر، ركن مشروبات، مقبلات وطبق رئيسي وحلوى.
+  - EN : Welcome cocktail at a château, mocktail bar, starter, main and dessert.
+- `realisations.items.zayn.title`
+  - FR : Le premier anniversaire de Zayn
+  - AR : عيد الميلاد الأول لزين
+  - EN : Zayn's first birthday
+- `realisations.items.zayn.text`
+  - FR : Chef à domicile : menu, préparation sur place, dressage et service.
+  - AR : طاهٍ في المنزل: القائمة، التحضير في المكان، التنسيق والتقديم.
+  - EN : Private chef: menu, cooking on site, plating and service.
+- `realisations.items.chapiteau.title`
+  - FR : Réception sous chapiteau
+  - AR : استقبال تحت الخيمة
+  - EN : Marquee reception
+- `realisations.items.chapiteau.text`
+  - FR : Cocktail de bienvenue, entrée raffinée, plat généreux et dessert à l'assiette.
+  - AR : كوكتيل استقبال، مقبلات راقية، طبق رئيسي سخي وحلوى في الطبق.
+  - EN : Welcome cocktail, refined starter, generous main and plated dessert.
+- `realisations.items.grandmorin.title`
+  - FR : Mariage au Domaine du Grand Morin
+  - AR : عرس في Domaine du Grand Morin
+  - EN : Wedding at Domaine du Grand Morin
+- `realisations.items.grandmorin.text`
+  - FR : Pastilla au poulet, rôti et ses accompagnements, pavlova aux fruits rouges.
+  - AR : بسطيلة الدجاج، لحم مشوي مع مرافقاته، بافلوفا بالفواكه الحمراء.
+  - EN : Chicken pastilla, roast with trimmings, red berry pavlova.
+- `realisations.items.lina.title`
+  - FR : Lina & Hamza
+  - AR : لينا وحمزة
+  - EN : Lina & Hamza
+- `realisations.items.lina.text`
+  - FR : Prestation complète : buffet, entrée, plat et dessert.
+  - AR : خدمة كاملة: بوفيه، مقبلات، طبق رئيسي وحلوى.
+  - EN : Full service: buffet, starter, main and dessert.
+
+### how
+
+- `how.eyebrow`
+  - FR : Comment ça marche
+  - AR : كيف نعمل
+  - EN : How it works
+- `how.title`
+  - FR : De votre demande au jour J
+  - AR : من طلبكم إلى يوم الحفل
+  - EN : From your request to the big day
+- `how.steps.0.title`
+  - FR : Votre demande
+  - AR : طلبكم
+  - EN : Your request
+- `how.steps.0.text`
+  - FR : Date, lieu, nombre d'invités, cuisine souhaitée : le formulaire nous envoie tout sur WhatsApp.
+  - AR : التاريخ، المكان، عدد الضيوف، المطبخ المرغوب: يرسل النموذج كل شيء إلينا عبر واتساب.
+  - EN : Date, venue, guest count, cuisine: the form sends it all to us on WhatsApp.
+- `how.steps.1.title`
+  - FR : Le menu
+  - AR : القائمة
+  - EN : The menu
+- `how.steps.1.text`
+  - FR : Nous construisons le menu avec vous et validons ensemble chaque détail.
+  - AR : نبني القائمة معكم ونتفق على كل التفاصيل.
+  - EN : We build the menu with you and agree every detail together.
+- `how.steps.2.title`
+  - FR : La préparation
+  - AR : التحضير
+  - EN : The preparation
+- `how.steps.2.text`
+  - FR : Produits sélectionnés, tout est préparé par notre équipe pour votre date.
+  - AR : منتجات مختارة، وكل شيء يُحضَّر على يد فريقنا ليومكم.
+  - EN : Carefully chosen produce, everything cooked by our team for your date.
+- `how.steps.3.title`
+  - FR : Le jour J
+  - AR : يوم الحفل
+  - EN : The big day
+- `how.steps.3.text`
+  - FR : Installation, dressage, service : nous restons jusqu'au dessert.
+  - AR : التجهيز، التنسيق، الخدمة: نبقى حتى الحلوى.
+  - EN : Set-up, plating, service: we stay until dessert.
+
+### reviews
+
+- `reviews.eyebrow`
+  - FR : Avis
+  - AR : آراء الزبائن
+  - EN : Reviews
+- `reviews.title`
+  - FR : Ils nous ont confié leur grand jour
+  - AR : منحونا ثقتهم في يومهم الكبير
+  - EN : They trusted us with their big day
+- `reviews.empty`
+  - FR : Les témoignages de nos mariés sont à lire dans notre story « AVIS » sur Instagram.
+  - AR : اقرؤوا شهادات عرسانا في القصص المثبّتة « AVIS » على إنستغرام.
+  - EN : Read what our couples say in the « AVIS » story highlight on our Instagram.
+- `reviews.cta`
+  - FR : Lire les avis sur Instagram
+  - AR : اقرأ الآراء على إنستغرام
+  - EN : Read reviews on Instagram
+
+### zone
+
+- `zone.eyebrow`
+  - FR : Zone desservie
+  - AR : مناطق الخدمة
+  - EN : Where we cater
+- `zone.title`
+  - FR : Île-de-France et alentours
+  - AR : إيل دو فرانس وما حولها
+  - EN : Paris, Île-de-France and beyond
+- `zone.text`
+  - FR : Nous nous déplaçons dans toute l'Île-de-France, dans les salles, domaines et châteaux de la région, et au-delà sur demande.
+  - AR : نتنقل في كامل إيل دو فرانس، إلى قاعات المنطقة ومزارعها وقصورها، وأبعد من ذلك عند الطلب.
+  - EN : We travel across Île-de-France, to the region's halls, estates and châteaux, and further on request.
+- `zone.departments`
+  - FR : Départements
+  - AR : المقاطعات
+  - EN : Départements
+
+### faq
+
+- `faq.eyebrow`
+  - FR : Questions fréquentes
+  - AR : أسئلة شائعة
+  - EN : FAQ
+- `faq.title`
+  - FR : Avant de réserver
+  - AR : قبل الحجز
+  - EN : Before you book
+- `faq.items.0.q`
+  - FR : Combien de temps à l'avance faut-il réserver ?
+  - AR : كم من الوقت مسبقًا يجب الحجز؟
+  - EN : How far ahead should we book?
+- `faq.items.0.a`
+  - FR : Les samedis de mai à septembre partent vite. Écrivez-nous dès que votre date et votre lieu sont fixés : nous vous confirmons la disponibilité tout de suite.
+  - AR : أيام السبت من ماي إلى شتنبر تُحجز بسرعة. راسلونا بمجرد تحديد التاريخ والمكان: نؤكد لكم التوفر فورًا.
+  - EN : Saturdays from May to September go quickly. Write to us as soon as your date and venue are set: we confirm availability straight away.
+- `faq.items.1.q`
+  - FR : Y a-t-il un minimum d'invités ?
+  - AR : هل هناك حد أدنى لعدد الضيوف؟
+  - EN : Is there a minimum number of guests?
+- `faq.items.1.a`
+  - FR : Cela dépend de la formule. Le chef à domicile est possible dès 4 personnes ; pour les buffets et les repas servis, le minimum vous est indiqué avec le devis.
+  - AR : يتوقف ذلك على الباقة. الطاهي في المنزل متاح ابتداءً من 4 أشخاص؛ أما البوفيهات والوجبات المقدَّمة فيُذكر الحد الأدنى في عرض السعر.
+  - EN : It depends on the package. The private chef is available from 4 guests; for buffets and plated dinners, the minimum is given with your quote.
+- `faq.items.2.q`
+  - FR : Peut-on organiser une dégustation ?
+  - AR : هل يمكن تنظيم تذوّق؟
+  - EN : Can we arrange a tasting?
+- `faq.items.2.a`
+  - FR : Mentionnez-le dans votre demande : les modalités de dégustation vous sont précisées avec le devis.
+  - AR : اذكروا ذلك في طلبكم: تُوضَّح طريقة التذوّق مع عرض السعر.
+  - EN : Mention it in your request: tasting arrangements are explained with your quote.
+- `faq.items.3.q`
+  - FR : La viande est-elle halal ?
+  - AR : هل اللحم حلال؟
+  - EN : Is the meat halal?
+- `faq.items.3.a`
+  - FR : Indiquez-le dans votre demande : la provenance des viandes est précisée dans le devis.
+  - AR : اذكروا ذلك في طلبكم: مصدر اللحوم مذكور في عرض السعر.
+  - EN : Mention it in your request: the origin of the meat is stated in your quote.
+- `faq.items.4.q`
+  - FR : Fournissez-vous la vaisselle et le service ?
+  - AR : هل توفرون الأواني والخدمة؟
+  - EN : Do you provide tableware and service?
+- `faq.items.4.a`
+  - FR : Vous choisissez dans le formulaire entre la livraison seule et la prestation avec service et installation. Le devis détaille la vaisselle, le personnel et l'installation.
+  - AR : تختارون في النموذج بين التوصيل فقط أو الخدمة مع التجهيز. يفصّل عرض السعر الأواني والطاقم والتجهيز.
+  - EN : In the form you choose between delivery only and full service with set-up. The quote details tableware, staff and set-up.
+- `faq.items.5.q`
+  - FR : Vous déplacez-vous hors d'Île-de-France ?
+  - AR : هل تتنقلون خارج إيل دو فرانس؟
+  - EN : Do you travel outside Île-de-France?
+- `faq.items.5.a`
+  - FR : Oui, sur demande. Indiquez le lieu de votre réception : les frais de déplacement figurent sur le devis.
+  - AR : نعم، عند الطلب. أخبرونا بمكان حفلكم: مصاريف التنقل مذكورة في عرض السعر.
+  - EN : Yes, on request. Tell us where your reception is: travel costs appear on the quote.
+- `faq.items.6.q`
+  - FR : Comment réserver ma date ?
+  - AR : كيف أحجز تاريخي؟
+  - EN : How do I secure my date?
+- `faq.items.6.a`
+  - FR : La date est bloquée à la validation du devis, avec un acompte dont le montant y est indiqué.
+  - AR : يُحجز التاريخ عند الموافقة على عرض السعر، مع عربون يُذكر مبلغه فيه.
+  - EN : Your date is held once you accept the quote, with a deposit whose amount is shown on it.
+
+### quote
+
+- `quote.eyebrow`
+  - FR : Demande de devis
+  - AR : طلب عرض سعر
+  - EN : Request a quote
+- `quote.title`
+  - FR : Parlez-nous de votre réception
+  - AR : حدّثونا عن مناسبتكم
+  - EN : Tell us about your reception
+- `quote.text`
+  - FR : Deux minutes suffisent. Votre demande arrive directement sur notre WhatsApp avec tous les détails, et nous revenons vers vous avec une proposition.
+  - AR : دقيقتان تكفيان. يصل طلبكم مباشرة إلى واتساب بكل التفاصيل، ونعود إليكم باقتراح.
+  - EN : It takes two minutes. Your request goes straight to our WhatsApp with every detail, and we come back to you with a proposal.
+- `quote.steps.event`
+  - FR : L'événement
+  - AR : المناسبة
+  - EN : The event
+- `quote.steps.menu`
+  - FR : La cuisine
+  - AR : المطبخ
+  - EN : The cuisine
+- `quote.steps.contact`
+  - FR : Vos coordonnées
+  - AR : معلوماتكم
+  - EN : Your details
+- `quote.fields.eventType`
+  - FR : Type d'événement
+  - AR : نوع المناسبة
+  - EN : Type of event
+- `quote.fields.eventTypes.mariage`
+  - FR : Mariage
+  - AR : عرس
+  - EN : Wedding
+- `quote.fields.eventTypes.fiancailles`
+  - FR : Fiançailles
+  - AR : خطوبة
+  - EN : Engagement
+- `quote.fields.eventTypes.henne`
+  - FR : Henné
+  - AR : حنّاء
+  - EN : Henna night
+- `quote.fields.eventTypes.reception`
+  - FR : Réception
+  - AR : استقبال
+  - EN : Reception
+- `quote.fields.eventTypes.entreprise`
+  - FR : Entreprise
+  - AR : شركة
+  - EN : Corporate
+- `quote.fields.eventTypes.domicile`
+  - FR : Chef à domicile
+  - AR : طاهٍ في المنزل
+  - EN : Private chef
+- `quote.fields.date`
+  - FR : Date
+  - AR : التاريخ
+  - EN : Date
+- `quote.fields.time`
+  - FR : Heure
+  - AR : الساعة
+  - EN : Time
+- `quote.fields.city`
+  - FR : Ville ou lieu
+  - AR : المدينة أو المكان
+  - EN : Town or venue
+- `quote.fields.cityPlaceholder`
+  - FR : ex. Domaine à Meaux (77)
+  - AR : مثال: قاعة في مو (77)
+  - EN : e.g. Estate near Meaux (77)
+- `quote.fields.guests`
+  - FR : Nombre d'invités
+  - AR : عدد الضيوف
+  - EN : Number of guests
+- `quote.fields.cuisine`
+  - FR : Cuisine souhaitée
+  - AR : المطبخ المرغوب
+  - EN : Preferred cuisine
+- `quote.fields.cuisines.europeenne`
+  - FR : Européenne
+  - AR : أوروبي
+  - EN : European
+- `quote.fields.cuisines.marocaine`
+  - FR : Marocaine
+  - AR : مغربي
+  - EN : Moroccan
+- `quote.fields.cuisines.mixte`
+  - FR : Mixte
+  - AR : مختلط
+  - EN : Mixed
+- `quote.fields.formula`
+  - FR : Formule
+  - AR : الباقة
+  - EN : Package
+- `quote.fields.several`
+  - FR : plusieurs choix possibles
+  - AR : يمكن اختيار أكثر من واحدة
+  - EN : choose as many as you like
+- `quote.fields.formulas.cocktail`
+  - FR : Cocktail
+  - AR : كوكتيل
+  - EN : Cocktail
+- `quote.fields.formulas.buffet`
+  - FR : Buffet
+  - AR : بوفيه
+  - EN : Buffet
+- `quote.fields.formulas.servi`
+  - FR : Repas servi
+  - AR : وجبة مقدَّمة
+  - EN : Plated dinner
+- `quote.fields.formulas.animations`
+  - FR : Animations
+  - AR : عروض حية
+  - EN : Live stations
+- `quote.fields.service`
+  - FR : Prestation
+  - AR : نوع الخدمة
+  - EN : Service
+- `quote.fields.services.service`
+  - FR : Avec service et installation
+  - AR : مع الخدمة والتجهيز
+  - EN : With service and set-up
+- `quote.fields.services.livraison`
+  - FR : Livraison seule
+  - AR : توصيل فقط
+  - EN : Delivery only
+- `quote.fields.budget`
+  - FR : Budget par personne
+  - AR : الميزانية للشخص
+  - EN : Budget per guest
+- `quote.fields.budgetNone`
+  - FR : Je ne sais pas encore
+  - AR : لا أعرف بعد
+  - EN : Not sure yet
+- `quote.fields.budgets.0`
+  - FR : Moins de 40 €
+  - AR : أقل من 40 €
+  - EN : Under €40
+- `quote.fields.budgets.1`
+  - FR : 40 à 60 €
+  - AR : من 40 إلى 60 €
+  - EN : €40 to €60
+- `quote.fields.budgets.2`
+  - FR : 60 à 90 €
+  - AR : من 60 إلى 90 €
+  - EN : €60 to €90
+- `quote.fields.budgets.3`
+  - FR : Plus de 90 €
+  - AR : أكثر من 90 €
+  - EN : Over €90
+- `quote.fields.optional`
+  - FR : facultatif
+  - AR : اختياري
+  - EN : optional
+- `quote.fields.name`
+  - FR : Nom
+  - AR : الاسم
+  - EN : Name
+- `quote.fields.phone`
+  - FR : Téléphone
+  - AR : الهاتف
+  - EN : Phone
+- `quote.fields.message`
+  - FR : Message
+  - AR : رسالة
+  - EN : Message
+- `quote.fields.messagePlaceholder`
+  - FR : Plats souhaités, allergies, horaires, accès au lieu…
+  - AR : أطباق مرغوبة، حساسية، المواعيد، الوصول إلى المكان…
+  - EN : Dishes you'd like, allergies, timings, venue access…
+- `quote.fields.dateBooked`
+  - FR : Cette date est déjà très demandée : envoyez quand même votre demande, nous vous répondons vite.
+  - AR : هذا التاريخ مطلوب كثيرًا: أرسلوا طلبكم رغم ذلك، وسنرد بسرعة.
+  - EN : This date is already in high demand: send your request anyway, we'll reply quickly.
+- `quote.required`
+  - FR : Ce champ est nécessaire.
+  - AR : هذه الخانة ضرورية.
+  - EN : This field is required.
+- `quote.invalidPhone`
+  - FR : Ce numéro ne semble pas valide.
+  - AR : يبدو أن هذا الرقم غير صحيح.
+  - EN : This number doesn't look valid.
+- `quote.submit`
+  - FR : Envoyer ma demande sur WhatsApp
+  - AR : أرسل طلبي عبر واتساب
+  - EN : Send my request on WhatsApp
+- `quote.hint`
+  - FR : WhatsApp s'ouvre avec votre récapitulatif déjà rédigé : il ne reste qu'à appuyer sur « Envoyer ».
+  - AR : يُفتح واتساب وملخص طلبكم مكتوب مسبقًا: يكفي الضغط على « إرسال ».
+  - EN : WhatsApp opens with your summary already written: just press « Send ».
+- `quote.consent`
+  - FR : Vos informations servent uniquement à vous répondre.
+  - AR : تُستعمل معلوماتكم فقط للرد عليكم.
+  - EN : Your details are only used to reply to you.
+- `quote.prefilled`
+  - FR : {n} invités : c'est noté, il ne reste que quelques détails.
+  - AR : {n} ضيفًا: تم التسجيل، بقيت بعض التفاصيل فقط.
+  - EN : {n} guests: noted, just a few details left.
+- `quote.success.title`
+  - FR : Merci, votre demande est prête
+  - AR : شكرًا، طلبكم جاهز
+  - EN : Thank you, your request is ready
+- `quote.success.text`
+  - FR : Si WhatsApp ne s'est pas ouvert, utilisez le bouton ci-dessous. Nous revenons vers vous rapidement.
+  - AR : إذا لم يُفتح واتساب، استعملوا الزر أدناه. سنعود إليكم قريبًا.
+  - EN : If WhatsApp didn't open, use the button below. We'll get back to you soon.
+- `quote.success.again`
+  - FR : Ouvrir WhatsApp
+  - AR : فتح واتساب
+  - EN : Open WhatsApp
+- `quote.success.reset`
+  - FR : Faire une autre demande
+  - AR : طلب جديد
+  - EN : Make another request
+- `quote.message.title`
+  - FR : Demande de devis – Maison ZH
+  - AR : طلب عرض سعر – Maison ZH
+  - EN : Quote request – Maison ZH
+- `quote.message.event`
+  - FR : Événement
+  - AR : المناسبة
+  - EN : Event
+- `quote.message.date`
+  - FR : Date
+  - AR : التاريخ
+  - EN : Date
+- `quote.message.time`
+  - FR : Heure
+  - AR : الساعة
+  - EN : Time
+- `quote.message.city`
+  - FR : Lieu
+  - AR : المكان
+  - EN : Venue
+- `quote.message.guests`
+  - FR : Invités
+  - AR : الضيوف
+  - EN : Guests
+- `quote.message.cuisine`
+  - FR : Cuisine
+  - AR : المطبخ
+  - EN : Cuisine
+- `quote.message.formula`
+  - FR : Formule
+  - AR : الباقة
+  - EN : Package
+- `quote.message.service`
+  - FR : Prestation
+  - AR : الخدمة
+  - EN : Service
+- `quote.message.budget`
+  - FR : Budget / pers.
+  - AR : الميزانية / للشخص
+  - EN : Budget / guest
+- `quote.message.name`
+  - FR : Nom
+  - AR : الاسم
+  - EN : Name
+- `quote.message.phone`
+  - FR : Téléphone
+  - AR : الهاتف
+  - EN : Phone
+- `quote.message.notes`
+  - FR : Message
+  - AR : رسالة
+  - EN : Message
+- `quote.message.ref`
+  - FR : Réf.
+  - AR : المرجع
+  - EN : Ref.
+- `quote.message.closing`
+  - FR : Merci de me recontacter pour le devis.
+  - AR : أرجو التواصل معي بخصوص عرض السعر.
+  - EN : Please get back to me with a quote.
+- `quote.deposit`
+  - FR : Régler l'acompte en ligne
+  - AR : دفع العربون عبر الإنترنت
+  - EN : Pay the deposit online
+
+### whatsapp
+
+- `whatsapp.float`
+  - FR : Écrire à Maison ZH sur WhatsApp
+  - AR : راسل ميزون ZH على واتساب
+  - EN : Message Maison ZH on WhatsApp
+- `whatsapp.hello`
+  - FR : Bonjour Maison ZH, je souhaite un devis pour une réception.
+  - AR : السلام عليكم ميزون ZH، أرغب في عرض سعر لمناسبة.
+  - EN : Hello Maison ZH, I'd like a quote for a reception.
+
+### mobileBar
+
+- `mobileBar.quote`
+  - FR : Demander un devis
+  - AR : اطلب عرض سعر
+  - EN : Request a quote
+- `mobileBar.call`
+  - FR : Appeler
+  - AR : اتصال
+  - EN : Call
+
+### services
+
+- `services.back`
+  - FR : Toutes nos prestations
+  - AR : كل خدماتنا
+  - EN : All our services
+- `services.includesTitle`
+  - FR : Ce que nous prenons en charge
+  - AR : ما نتكفّل به
+  - EN : What we take care of
+- `services.formulasTitle`
+  - FR : Formules conseillées
+  - AR : باقات ننصح بها
+  - EN : Recommended packages
+- `services.galleryTitle`
+  - FR : En images
+  - AR : بالصور
+  - EN : In pictures
+- `services.items.mariage.metaTitle`
+  - FR : Traiteur mariage en Île-de-France – oriental, marocain et européen | Maison ZH
+  - AR : ممون أعراس في باريس وإيل دو فرانس – مغربي وشرقي وأوروبي | Maison ZH
+  - EN : Wedding caterer in Paris and Île-de-France – Moroccan, oriental and European | Maison ZH
+- `services.items.mariage.metaDescription`
+  - FR : Traiteur de mariage en Île-de-France : cocktail, buffet, repas servi, menu marocain ou mixte, animations. Maison ZH sert vos invités du vin d'honneur au gâteau.
+  - AR : ممون أعراس في إيل دو فرانس: كوكتيل، بوفيه، وجبة مقدَّمة، قائمة مغربية أو مختلطة، عروض حية. ميزون ZH يخدم ضيوفكم من الاستقبال حتى الكعكة.
+  - EN : Wedding caterer in Île-de-France: cocktail, buffet, plated dinner, Moroccan or mixed menu, live stations. Maison ZH serves your guests from the drinks reception to the cake.
+- `services.items.mariage.eyebrow`
+  - FR : Traiteur mariage
+  - AR : ممون الأعراس
+  - EN : Wedding catering
+- `services.items.mariage.title`
+  - FR : Un mariage qui se souvient de sa table
+  - AR : عرس تبقى مائدته في الذاكرة
+  - EN : A wedding remembered for its table
+- `services.items.mariage.lead`
+  - FR : Vin d'honneur, buffet, repas servi à l'assiette : nous composons le repas de votre mariage en cuisine européenne, marocaine ou les deux, et nous le servons jusqu'au gâteau.
+  - AR : استقبال، بوفيه، وجبة في الأطباق: نعدّ وجبة عرسكم بمطبخ أوروبي أو مغربي أو بكليهما، ونقدّمها حتى الكعكة.
+  - EN : Drinks reception, buffet, plated dinner: we compose your wedding meal in European cuisine, Moroccan cuisine or both, and serve it until the cake.
+- `services.items.mariage.body.0`
+  - FR : Pour un mariage oriental comme pour un mariage plus classique, nous partons de vos envies : une pastilla au poulet en entrée, un rôti et ses accompagnements, une pavlova aux fruits rouges, ou un menu entièrement marocain avec tajines et méchoui.
+  - AR : لعرس شرقي أو لعرس كلاسيكي، ننطلق من رغباتكم: بسطيلة الدجاج كمقبّلات، لحم مشوي مع مرافقاته، بافلوفا بالفواكه الحمراء، أو قائمة مغربية كاملة بالطواجن والمشوي.
+  - EN : For an oriental wedding or a more classic one, we start from what you love: chicken pastilla to start, a roast with its trimmings, a red berry pavlova, or a fully Moroccan menu with tagines and mechoui.
+- `services.items.mariage.body.1`
+  - FR : Le jour J, notre équipe installe et dresse le buffet avant l'arrivée des invités, envoie les assiettes à toutes les tables et reste en salle jusqu'au dessert.
+  - AR : يوم الحفل، يجهّز فريقنا البوفيه وينسّقه قبل وصول الضيوف، ويرسل الأطباق إلى كل الطاولات، ويبقى في القاعة حتى الحلوى.
+  - EN : On the day, our team sets up and dresses the buffet before guests arrive, sends plates to every table and stays in the room until dessert.
+- `services.items.mariage.includes.0`
+  - FR : Cocktail de bienvenue et bar à mocktails
+  - AR : كوكتيل استقبال وركن مشروبات
+  - EN : Welcome cocktail and mocktail bar
+- `services.items.mariage.includes.1`
+  - FR : Buffet dressé ou repas servi à l'assiette
+  - AR : بوفيه منسّق أو وجبة في الأطباق
+  - EN : Styled buffet or plated dinner
+- `services.items.mariage.includes.2`
+  - FR : Équipe de service en salle
+  - AR : فريق خدمة في القاعة
+  - EN : Waiting staff in the room
+- `services.items.mariage.includes.3`
+  - FR : Plateaux de fruits et desserts
+  - AR : أطباق فواكه وحلويات
+  - EN : Fruit platters and desserts
+- `services.items.reception.metaTitle`
+  - FR : Traiteur réception haut de gamme en Île-de-France – fiançailles, henné, baptême | Maison ZH
+  - AR : ممون استقبالات راقٍ في إيل دو فرانس – خطوبة، حنّاء، عقيقة | Maison ZH
+  - EN : High-end reception caterer in Île-de-France – engagements, henna, christenings | Maison ZH
+- `services.items.reception.metaDescription`
+  - FR : Traiteur pour vos réceptions et fêtes de famille en Île-de-France : fiançailles, henné, baptême, anniversaire. Buffets et repas servis, cuisine européenne et marocaine.
+  - AR : ممون لاستقبالاتكم وحفلاتكم العائلية حول باريس: خطوبة، حنّاء، عقيقة، عيد ميلاد. بوفيهات ووجبات مقدَّمة، مطبخ أوروبي ومغربي.
+  - EN : Caterer for receptions and family parties around Paris: engagements, henna nights, christenings, birthdays. Buffets and plated dinners, European and Moroccan cuisine.
+- `services.items.reception.eyebrow`
+  - FR : Réceptions et fêtes de famille
+  - AR : الاستقبالات والحفلات العائلية
+  - EN : Receptions and family parties
+- `services.items.reception.title`
+  - FR : Fiançailles, henné, baptême : recevez sans compter
+  - AR : خطوبة، حنّاء، عقيقة: استقبلوا بسخاء
+  - EN : Engagements, henna, christenings: entertain generously
+- `services.items.reception.lead`
+  - FR : Une réception réussie commence dès les premières minutes : cocktail raffiné, bouchées délicates, buffet généreux, et un dessert pour finir en beauté.
+  - AR : يبدأ الاستقبال الناجح من الدقائق الأولى: كوكتيل راقٍ، لقيمات رقيقة، بوفيه سخي، وحلوى لختام جميل.
+  - EN : A great reception starts in the first few minutes: a refined cocktail, delicate bites, a generous buffet and a dessert to end on a high.
+- `services.items.reception.body.0`
+  - FR : Nous accompagnons les fiançailles, les soirées de henné, les baptêmes et les anniversaires, dans une salle, un jardin ou chez vous.
+  - AR : نرافق حفلات الخطوبة وليالي الحنّاء والعقيقة وأعياد الميلاد، في قاعة أو حديقة أو في بيتكم.
+  - EN : We cater engagements, henna nights, christenings and birthdays, in a hall, a garden or your home.
+- `services.items.reception.body.1`
+  - FR : Chaque réception est pensée sur mesure : nombre d'invités, déroulé de la soirée, cuisine européenne, marocaine ou mixte.
+  - AR : كل استقبال يُصمَّم على المقاس: عدد الضيوف، برنامج السهرة، مطبخ أوروبي أو مغربي أو مختلط.
+  - EN : Every reception is tailored: guest count, running order, European, Moroccan or mixed cuisine.
+- `services.items.reception.includes.0`
+  - FR : Cocktail de bienvenue personnalisé
+  - AR : كوكتيل استقبال حسب رغبتكم
+  - EN : Personalised welcome cocktail
+- `services.items.reception.includes.1`
+  - FR : Buffet salé et sucré
+  - AR : بوفيه مالح وحلو
+  - EN : Savoury and sweet buffet
+- `services.items.reception.includes.2`
+  - FR : Service du thé à la menthe
+  - AR : تقديم أتاي بالنعناع
+  - EN : Mint tea service
+- `services.items.reception.includes.3`
+  - FR : Livraison ou service sur place
+  - AR : توصيل أو خدمة في المكان
+  - EN : Delivery or on-site service
+- `services.items.entreprise.metaTitle`
+  - FR : Traiteur entreprise à Paris et en Île-de-France – cocktail, séminaire | Maison ZH
+  - AR : ممون للشركات في باريس وإيل دو فرانس – كوكتيلات وندوات | Maison ZH
+  - EN : Corporate caterer in Paris and Île-de-France – cocktails, seminars | Maison ZH
+- `services.items.entreprise.metaDescription`
+  - FR : Traiteur pour vos événements d'entreprise à Paris et en Île-de-France : cocktails, séminaires, soirées clients. Cuisine maison européenne et marocaine.
+  - AR : ممون لمناسبات الشركات في باريس وإيل دو فرانس: كوكتيلات، ندوات، أمسيات للعملاء. مطبخ منزلي أوروبي ومغربي.
+  - EN : Caterer for corporate events in Paris and Île-de-France: cocktails, seminars, client evenings. Home-made European and Moroccan cuisine.
+- `services.items.entreprise.eyebrow`
+  - FR : Traiteur entreprise
+  - AR : ممون الشركات
+  - EN : Corporate catering
+- `services.items.entreprise.title`
+  - FR : Vos événements professionnels, avec le même soin
+  - AR : مناسبات عملكم، بالعناية نفسها
+  - EN : Your business events, with the same care
+- `services.items.entreprise.lead`
+  - FR : Cocktail de lancement, séminaire, déjeuner d'équipe ou soirée clients : une cuisine maison qui fait bonne impression, livrée ou servie sur place.
+  - AR : كوكتيل إطلاق، ندوة، غداء للفريق أو أمسية للعملاء: طبخ منزلي يترك انطباعًا جيدًا، توصيلًا أو تقديمًا في المكان.
+  - EN : Launch cocktail, seminar, team lunch or client evening: home-made food that makes a good impression, delivered or served on site.
+- `services.items.entreprise.body.0`
+  - FR : Bouchées salées et sucrées, mini-burgers, verrines, plateaux : nous composons un cocktail dînatoire adapté à votre horaire et à votre public.
+  - AR : لقيمات مالحة وحلوة، برغر صغير، كؤوس، صوانٍ: نعدّ كوكتيلًا يناسب توقيتكم وضيوفكم.
+  - EN : Savoury and sweet bites, mini burgers, verrines, platters: we build a cocktail menu suited to your timing and your guests.
+- `services.items.entreprise.body.1`
+  - FR : Pour les événements plus formels, nous proposons un buffet ou un repas servi, avec la même exigence que pour nos mariages.
+  - AR : وللمناسبات الرسمية، نقترح بوفيهًا أو وجبة مقدَّمة، بالمعايير نفسها التي نعتمدها في أعراسنا.
+  - EN : For more formal occasions, we offer a buffet or a plated dinner, with the same standards as our weddings.
+- `services.items.entreprise.includes.0`
+  - FR : Cocktail dînatoire ou buffet
+  - AR : كوكتيل عشاء أو بوفيه
+  - EN : Cocktail menu or buffet
+- `services.items.entreprise.includes.1`
+  - FR : Bar à mocktails
+  - AR : ركن مشروبات بلا كحول
+  - EN : Mocktail bar
+- `services.items.entreprise.includes.2`
+  - FR : Livraison ou service sur place
+  - AR : توصيل أو خدمة في المكان
+  - EN : Delivery or on-site service
+- `services.items.entreprise.includes.3`
+  - FR : Devis détaillé pour votre service achats
+  - AR : عرض سعر مفصّل لقسم المشتريات
+  - EN : Itemised quote for your purchasing team
+- `services.items.domicile.metaTitle`
+  - FR : Chef à domicile en Île-de-France – cuisine marocaine et gastronomique | Maison ZH
+  - AR : طاهٍ في المنزل في باريس وإيل دو فرانس – مطبخ مغربي وراقٍ | Maison ZH
+  - EN : Private chef in Paris and Île-de-France – Moroccan and fine dining | Maison ZH
+- `services.items.domicile.metaDescription`
+  - FR : Chef à domicile en Île-de-France dès 4 personnes : menu élaboré avec vous, préparation sur place, dressage et service. Cuisine européenne et marocaine.
+  - AR : طاهٍ في المنزل في إيل دو فرانس ابتداءً من 4 أشخاص: قائمة نعدّها معكم، تحضير في المكان، تنسيق وتقديم. مطبخ أوروبي ومغربي.
+  - EN : Private chef in Île-de-France from 4 guests: menu designed with you, cooked on site, plated and served. European and Moroccan cuisine.
+- `services.items.domicile.eyebrow`
+  - FR : Chef à domicile
+  - AR : طاهٍ في المنزل
+  - EN : Private chef
+- `services.items.domicile.title`
+  - FR : Le restaurant vient chez vous
+  - AR : المطعم يأتي إليكم
+  - EN : The restaurant comes to you
+- `services.items.domicile.lead`
+  - FR : Dès 4 personnes, nous transformons votre repas en moment d'exception : un menu pensé pour vous, préparé dans votre cuisine et servi à votre table.
+  - AR : ابتداءً من 4 أشخاص، نحوّل وجبتكم إلى لحظة استثنائية: قائمة مصممة لكم، تُحضَّر في مطبخكم وتُقدَّم على مائدتكم.
+  - EN : From 4 guests, we turn your meal into something special: a menu designed for you, cooked in your kitchen and served at your table.
+- `services.items.domicile.body.0`
+  - FR : Élaboration du menu, sélection des produits, préparation sur place, dressage des assiettes et service : nous prenons tout en charge, du dîner en amoureux à l'anniversaire en famille.
+  - AR : إعداد القائمة، اختيار المنتجات، التحضير في المكان، تنسيق الأطباق والتقديم: نتكفل بكل شيء، من عشاء لشخصين إلى عيد ميلاد عائلي.
+  - EN : Menu design, sourcing, cooking on site, plating and service: we handle everything, from a dinner for two to a family birthday.
+- `services.items.domicile.body.1`
+  - FR : Mariage religieux à la maison, premier anniversaire, dîner privé : la cuisine marocaine et la gastronomie européenne s'invitent chez vous.
+  - AR : عقد قران في البيت، عيد ميلاد أول، عشاء خاص: المطبخ المغربي وفن الطبخ الأوروبي يحلّان في بيتكم.
+  - EN : Religious wedding at home, a first birthday, a private dinner: Moroccan cuisine and European gastronomy come to your home.
+- `services.items.domicile.includes.0`
+  - FR : Menu élaboré avec vous
+  - AR : قائمة نعدّها معكم
+  - EN : Menu designed with you
+- `services.items.domicile.includes.1`
+  - FR : Courses et produits frais
+  - AR : التسوق والمنتجات الطازجة
+  - EN : Shopping and fresh produce
+- `services.items.domicile.includes.2`
+  - FR : Préparation et dressage sur place
+  - AR : التحضير والتنسيق في المكان
+  - EN : Cooking and plating on site
+- `services.items.domicile.includes.3`
+  - FR : Service à table
+  - AR : التقديم على المائدة
+  - EN : Table service
+
+### footer
+
+- `footer.tagline`
+  - FR : Traiteur mariages et réceptions, gastronomie européenne et tradition marocaine, en Île-de-France et alentours.
+  - AR : ممون الأعراس والاستقبالات، فن الطبخ الأوروبي والتقاليد المغربية، في إيل دو فرانس وما حولها.
+  - EN : Caterer for weddings and receptions, European gastronomy and Moroccan tradition, in Île-de-France and beyond.
+- `footer.contact`
+  - FR : Contact
+  - AR : تواصل معنا
+  - EN : Contact
+- `footer.zone`
+  - FR : Zone desservie
+  - AR : مناطق الخدمة
+  - EN : Where we cater
+- `footer.zoneText`
+  - FR : Île-de-France et alentours
+  - AR : إيل دو فرانس وما حولها
+  - EN : Île-de-France and beyond
+- `footer.follow`
+  - FR : Suivez-nous
+  - AR : تابعونا
+  - EN : Follow us
+- `footer.legal`
+  - FR : Mentions légales
+  - AR : الإشعارات القانونية
+  - EN : Legal notice
+- `footer.rights`
+  - FR : Tous droits réservés.
+  - AR : جميع الحقوق محفوظة.
+  - EN : All rights reserved.
+- `footer.pages`
+  - FR : Prestations
+  - AR : الخدمات
+  - EN : Services
+
+### legal
+
+- `legal.title`
+  - FR : Mentions légales
+  - AR : الإشعارات القانونية
+  - EN : Legal notice
+- `legal.back`
+  - FR : Retour à l'accueil
+  - AR : العودة إلى الصفحة الرئيسية
+  - EN : Back to home
+- `legal.sections.0.title`
+  - FR : Éditeur du site
+  - AR : ناشر الموقع
+  - EN : Publisher
+- `legal.sections.0.text`
+  - FR : Maison ZH, traiteur pour les mariages et réceptions en Île-de-France. Forme juridique, SIRET, adresse et responsable de la publication : à remplir. Téléphone : 06 21 28 31 01.
+  - AR : ميزون ZH، ممون الأعراس والاستقبالات في إيل دو فرانس. الشكل القانوني ورقم SIRET والعنوان ومسؤول النشر: تُستكمل لاحقًا. الهاتف: ‎+33 6 21 28 31 01.
+  - EN : Maison ZH, caterer for weddings and receptions in Île-de-France. Legal form, SIRET number, address and publication manager: to be completed. Phone: +33 6 21 28 31 01.
+- `legal.sections.1.title`
+  - FR : Hébergement
+  - AR : الاستضافة
+  - EN : Hosting
+- `legal.sections.1.text`
+  - FR : Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis.
+  - AR : Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723، الولايات المتحدة.
+  - EN : Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, United States.
+- `legal.sections.2.title`
+  - FR : Photos
+  - AR : الصور
+  - EN : Photos
+- `legal.sections.2.text`
+  - FR : Toutes les photos du site sont celles de Maison ZH, publiées sur son compte Instagram @traiteur_maisonzh. Toute reproduction est interdite sans accord.
+  - AR : جميع صور الموقع ملك لميزون ZH ومنشورة على حسابها في إنستغرام @traiteur_maisonzh. يُمنع نسخها دون إذن.
+  - EN : All photos on this site belong to Maison ZH and are published on its Instagram account @traiteur_maisonzh. Reproduction is forbidden without permission.
+- `legal.sections.3.title`
+  - FR : Données personnelles
+  - AR : البيانات الشخصية
+  - EN : Personal data
+- `legal.sections.3.text`
+  - FR : Le formulaire de devis n'enregistre rien sur ce site : il prépare un message WhatsApp que vous envoyez vous-même. Les informations reçues servent uniquement à répondre à votre demande. Le site ne dépose aucun cookie publicitaire ; seul un cookie technique retient la langue choisie.
+  - AR : لا يحفظ نموذج طلب عرض السعر أي شيء على هذا الموقع: إنه يُعدّ رسالة واتساب ترسلونها بأنفسكم. تُستعمل المعلومات الواردة فقط للرد على طلبكم. لا يضع الموقع أي ملفات تعريف إعلانية؛ ملف تقني واحد فقط يحفظ اللغة المختارة.
+  - EN : The quote form stores nothing on this site: it prepares a WhatsApp message that you send yourself. The information received is only used to answer your request. The site sets no advertising cookies; a single technical cookie remembers your chosen language.
+
+### notFound
+
+- `notFound.title`
+  - FR : Cette page n'existe pas
+  - AR : هذه الصفحة غير موجودة
+  - EN : This page doesn't exist
+- `notFound.text`
+  - FR : Ce plat n'est pas à la carte. Revenez à l'accueil pour découvrir nos formules.
+  - AR : هذا الطبق ليس في القائمة. عودوا إلى الصفحة الرئيسية لاكتشاف باقاتنا.
+  - EN : That dish isn't on the menu. Head back home to see our packages.
+- `notFound.back`
+  - FR : Retour à l'accueil
+  - AR : العودة إلى الصفحة الرئيسية
+  - EN : Back to home
+
+### alt
+
+- `alt.buffet-chateau-nappe-sauge`
+  - FR : Buffet de mariage dressé sur nappe vert sauge dans le jardin d'un château
+  - AR : بوفيه عرس على مفرش أخضر في حديقة قصر
+  - EN : Wedding buffet on a sage-green tablecloth in a château garden
+- `alt.buffet-chateau-bouchees`
+  - FR : Bouchées salées sur coupes et présentoirs, buffet en plein air
+  - AR : لقيمات مالحة على حوامل وكؤوس، بوفيه في الهواء الطلق
+  - EN : Savoury bites on stands and coupes, outdoor buffet
+- `alt.buffet-mariage-parc`
+  - FR : Buffet de mariage en plein air dans un parc, roses rouges et verrines
+  - AR : بوفيه عرس في حديقة، ورود حمراء وكؤوس
+  - EN : Outdoor wedding buffet in a park, red roses and verrines
+- `alt.buffet-fleurs-blanches`
+  - FR : Buffet de réception aux fleurs blanches, mini-burgers et bouchées dorées
+  - AR : بوفيه استقبال بالزهور البيضاء، برغر صغير ولقيمات ذهبية
+  - EN : Reception buffet with white flowers, mini burgers and golden bites
+- `alt.table-dressee-chapiteau`
+  - FR : Table de mariage dressée sous chapiteau, couverts dorés et gypsophile
+  - AR : مائدة عرس تحت خيمة، أدوات مذهّبة وزهور بيضاء
+  - EN : Wedding table set under a marquee, gold cutlery and gypsophila
+- `alt.buffet-cocktail-terrasse`
+  - FR : Buffet cocktail fleuri sur une terrasse, bouchées et mocktails
+  - AR : بوفيه كوكتيل مزهر على شرفة، لقيمات ومشروبات
+  - EN : Flower-decked cocktail buffet on a terrace, bites and mocktails
+- `alt.buffet-cocktail-mini-burgers`
+  - FR : Buffet de mariage sur présentoirs blancs, mini-burgers et feuilletés
+  - AR : بوفيه عرس على حوامل بيضاء، برغر صغير ومعجنات
+  - EN : Wedding buffet on white stands, mini burgers and pastries
+- `alt.pastilla-fruits-de-mer`
+  - FR : Pastillas aux fruits de mer servies dans des assiettes en faïence bleue
+  - AR : بسطيلة فواكه البحر في صحون خزفية زرقاء
+  - EN : Seafood pastillas served on blue earthenware plates
+- `alt.tajines-faience-bleue`
+  - FR : Tajines en faïence bleue et blanche prêts à être servis
+  - AR : طواجن من الخزف الأزرق والأبيض جاهزة للتقديم
+  - EN : Blue and white earthenware tagines ready to serve
+- `alt.tajine-pruneaux-amandes`
+  - FR : Tajine d'agneau aux pruneaux et amandes, fleur comestible
+  - AR : طاجين اللحم بالبرقوق واللوز مع زهرة صالحة للأكل
+  - EN : Lamb tagine with prunes and almonds, edible flower
+- `alt.pastilla-poulet-amandes`
+  - FR : Pastilla au poulet décorée d'amandes et de pétales de rose
+  - AR : بسطيلة الدجاج مزينة باللوز وبتلات الورد
+  - EN : Chicken pastilla topped with almonds and rose petals
+- `alt.agneau-pruneaux-abricots`
+  - FR : Agneau aux pruneaux, abricots et amandes dressé à l'assiette
+  - AR : لحم بالبرقوق والمشمش واللوز في الطبق
+  - EN : Lamb with prunes, apricots and almonds, plated
+- `alt.poulet-citron-confit-olives`
+  - FR : Poulet au citron confit et olives, servi sur plat d'argent
+  - AR : دجاج بالحامض المرقد والزيتون على صينية فضية
+  - EN : Chicken with preserved lemon and olives on a silver platter
+- `alt.poulet-olives-plat`
+  - FR : Grand plat de poulet aux olives pour une table de mariage
+  - AR : طبق كبير من الدجاج بالزيتون لمائدة عرس
+  - EN : Large platter of chicken with olives for a wedding table
+- `alt.tajine-fruits-secs`
+  - FR : Tajine aux fruits secs, abricots, pruneaux et amandes
+  - AR : طاجين بالفواكه الجافة، مشمش وبرقوق ولوز
+  - EN : Tagine with dried fruit, apricots, prunes and almonds
+- `alt.table-douceurs-dattes-bougies`
+  - FR : Table de douceurs marocaines, dattes et chandeliers
+  - AR : مائدة حلويات مغربية، تمر وشمعدانات
+  - EN : Moroccan sweet table with dates and candelabras
+- `alt.tartare-mangue-avocat`
+  - FR : Tartare mangue et avocat dressé dans une assiette en céramique
+  - AR : تارتار المانجو والأفوكادو في صحن خزفي
+  - EN : Mango and avocado tartare in a ceramic bowl
+- `alt.agneau-puree-carotte`
+  - FR : Agneau confit sur purée de carotte, herbes fraîches
+  - AR : لحم خروف مطهو ببطء على هريس الجزر
+  - EN : Slow-cooked lamb on carrot purée with fresh herbs
+- `alt.pavlova-fruits-rouges`
+  - FR : Pavlova aux fruits rouges et fleurs comestibles
+  - AR : بافلوفا بالفواكه الحمراء والزهور
+  - EN : Red berry pavlova with edible flowers
+- `alt.roti-legumes-glaces`
+  - FR : Rôti servi à l'assiette avec légumes glacés et sauce
+  - AR : لحم مشوي في الطبق مع خضار مُلمَّعة وصلصة
+  - EN : Plated roast with glazed vegetables and sauce
+- `alt.pavlovas-service`
+  - FR : Pavlovas aux fruits rouges alignées avant le service
+  - AR : صحون بافلوفا مصفوفة قبل التقديم
+  - EN : Red berry pavlovas lined up before service
+- `alt.volaille-fagot-haricots`
+  - FR : Suprême de volaille, purée, carottes rôties et fagot de haricots verts
+  - AR : صدر دجاج مع هريس وجزر محمّص وفاصولياء خضراء
+  - EN : Chicken supreme, mash, roasted carrots and green bean bundle
+- `alt.dome-chocolat-fruits-rouges`
+  - FR : Desserts en dentelle de chocolat et fruits rouges prêts à servir
+  - AR : حلويات بدانتيل الشوكولاتة والفواكه الحمراء
+  - EN : Chocolate lace desserts with red berries ready to serve
+- `alt.the-a-la-menthe`
+  - FR : Thé à la menthe versé dans des verres dorés
+  - AR : أتاي بالنعناع يُسكب في كؤوس مذهّبة
+  - EN : Mint tea poured into gold-rimmed glasses
+- `alt.bar-a-mocktails`
+  - FR : Bar à mocktails colorés sur présentoirs blancs
+  - AR : ركن مشروبات ملونة على حوامل بيضاء
+  - EN : Colourful mocktail bar on white stands
+- `alt.mocktail-minute`
+  - FR : Mocktail citron vert préparé à la minute
+  - AR : مشروب بالليمون الأخضر يُحضَّر في اللحظة
+  - EN : Lime mocktail made to order
+- `alt.mechoui-service`
+  - FR : Méchoui d'agneau porté en salle avec légumes
+  - AR : مشوي الخروف يُحمَل إلى القاعة مع الخضار
+  - EN : Lamb mechoui carried into the room with vegetables
+- `alt.plateaux-de-fruits`
+  - FR : Plateaux de fruits frais taillés et dressés
+  - AR : أطباق فواكه طازجة مقطّعة ومنسّقة
+  - EN : Fresh fruit platters, cut and arranged
+- `alt.verrines-passion`
+  - FR : Verrines aux fruits de la passion sur un buffet de réception
+  - AR : كؤوس بفاكهة الباشن على بوفيه استقبال
+  - EN : Passion fruit verrines on a reception buffet
+- `alt.plateau-cocktail-dinatoire`
+  - FR : Plateau de cocktail dînatoire, mini-burgers et gaufres salées
+  - AR : صينية كوكتيل ببرغر صغير ووافل مالح
+  - EN : Cocktail platter with mini burgers and savoury waffles
+- `alt.bouchees-cocktail`
+  - FR : Bouchées de cocktail et fleurs blanches sur un buffet
+  - AR : لقيمات كوكتيل وزهور بيضاء على بوفيه
+  - EN : Cocktail bites and white flowers on a buffet
+- `alt.table-chef-a-domicile`
+  - FR : Table dressée aux chandelles pour un dîner de chef à domicile
+  - AR : مائدة على ضوء الشموع لعشاء طاهٍ في المنزل
+  - EN : Candlelit table set for a private chef dinner
+- `alt.buffet-anniversaire`
+  - FR : Buffet d'anniversaire dans une cour en pierre, chandeliers bleus
+  - AR : بوفيه عيد ميلاد في فناء حجري، شمعدانات زرقاء
+  - EN : Birthday buffet in a stone courtyard, blue candelabra
+- `alt.patisseries-amandes`
+  - FR : Pâtisseries aux amandes en préparation
+  - AR : حلويات باللوز أثناء التحضير
+  - EN : Almond pastries being prepared
+

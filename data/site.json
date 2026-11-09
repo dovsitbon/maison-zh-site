@@ -1,0 +1,28 @@
+{
+  "_note": "Coordonnées de Maison ZH. Les champs à null sont « à remplir » (voir INFOS-A-DEMANDER.md).",
+  "name": "Maison ZH",
+  "url": "https://maison-zh.vercel.app",
+  "phone": "06 21 28 31 01",
+  "phoneIntl": "+33 6 21 28 31 01",
+  "tel": "+33621283101",
+  "whatsapp": "33621283101",
+  "instagram": "https://www.instagram.com/traiteur_maisonzh/",
+  "instagramHandle": "@traiteur_maisonzh",
+  "followers": "25 500",
+  "email": null,
+  "manager": null,
+  "siret": null,
+  "address": null,
+  "region": "Île-de-France",
+  "_departmentsNote": "Départements desservis : à confirmer avec Maison ZH (confirmed: false tant que ce n'est pas validé). Le Domaine du Grand Morin (77) figure déjà dans ses réalisations.",
+  "departments": [
+    { "code": "75", "name": "Paris", "confirmed": false },
+    { "code": "77", "name": "Seine-et-Marne", "confirmed": false },
+    { "code": "78", "name": "Yvelines", "confirmed": false },
+    { "code": "91", "name": "Essonne", "confirmed": false },
+    { "code": "92", "name": "Hauts-de-Seine", "confirmed": false },
+    { "code": "93", "name": "Seine-Saint-Denis", "confirmed": false },
+    { "code": "94", "name": "Val-de-Marne", "confirmed": false },
+    { "code": "95", "name": "Val-d'Oise", "confirmed": false }
+  ]
+}

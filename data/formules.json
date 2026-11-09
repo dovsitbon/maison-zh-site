@@ -1,0 +1,11 @@
+{
+  "_note": "Formules affichées sur l'accueil et la page /formules. priceFrom = prix « à partir de » en € par personne, minGuests = minimum d'invités. À REMPLIR d'après les stories « MENU » et « MAROCAIN » : tant que la valeur est null, le site affiche « Sur devis » / « Minimum à préciser ». Seul fait connu : le chef à domicile est possible dès 4 personnes (légende Instagram du 25/09/2024). Textes dans locales/*.json → formules.items.",
+  "formules": [
+    { "id": "cocktail", "priceFrom": null, "minGuests": null, "image": "/media/animations/verrines-passion.jpg" },
+    { "id": "buffet", "priceFrom": null, "minGuests": null, "image": "/media/mariages/buffet-fleurs-blanches.jpg" },
+    { "id": "servi", "priceFrom": null, "minGuests": null, "image": "/media/europeen/roti-legumes-glaces.jpg" },
+    { "id": "marocain", "priceFrom": null, "minGuests": null, "image": "/media/marocain/tajine-pruneaux-amandes.jpg" },
+    { "id": "mixte", "priceFrom": null, "minGuests": null, "image": "/media/marocain/pastilla-poulet-amandes.jpg" },
+    { "id": "domicile", "priceFrom": null, "minGuests": 4, "image": "/media/galerie/table-chef-a-domicile.jpg" }
+  ]
+}

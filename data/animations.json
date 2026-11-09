@@ -1,0 +1,9 @@
+{
+  "_note": "Animations et stands (« SHOW »). confirmed: true = cité dans une légende Instagram ; false = vu en photo, à confirmer avec la story « SHOW ». priceFrom en € (null = sur devis). Textes dans locales/*.json → animations.items.",
+  "animations": [
+    { "id": "mocktails", "confirmed": true, "priceFrom": null, "image": "/media/animations/bar-a-mocktails.jpg" },
+    { "id": "the", "confirmed": false, "priceFrom": null, "image": "/media/animations/the-a-la-menthe.jpg" },
+    { "id": "mechoui", "confirmed": false, "priceFrom": null, "image": "/media/animations/mechoui-service.jpg" },
+    { "id": "fruits", "confirmed": false, "priceFrom": null, "image": "/media/animations/plateaux-de-fruits.jpg" }
+  ]
+}

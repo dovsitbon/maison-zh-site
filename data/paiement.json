@@ -1,0 +1,7 @@
+{
+  "_note": "Paiement en ligne (acompte) prévu mais désactivé. Pour l'activer : enabled true + lien de paiement Stripe (Payment Link) dans depositLink. Voir lib/payment.ts.",
+  "enabled": false,
+  "provider": "stripe",
+  "depositLink": null,
+  "depositPercent": null
+}

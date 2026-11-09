@@ -1,0 +1,16 @@
+{
+  "_note": "Bandeau d'infos pratiques en haut du site (refermable). Une seule annonce s'affiche : la première active dont la date du jour est entre from et to (AAAA-MM-JJ, heure de Paris). Changer l'id pour la réafficher chez ceux qui l'avaient fermée.",
+  "annonces": [
+    {
+      "id": "saison-2027",
+      "active": true,
+      "from": "2026-11-01",
+      "to": "2027-08-31",
+      "text": {
+        "fr": "Les dates de mariage 2027 sont ouvertes à la réservation.",
+        "en": "Wedding dates for 2027 are now open for booking.",
+        "ar": "مواعيد أعراس 2027 مفتوحة الآن للحجز."
+      }
+    }
+  ]
+}

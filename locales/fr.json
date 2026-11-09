@@ -1,0 +1,369 @@
+{
+  "meta": {
+    "title": "Traiteur mariage et réception en Île-de-France – cuisine européenne et marocaine | Maison ZH",
+    "description": "Maison ZH, traiteur haut de gamme pour vos mariages, réceptions et événements d'entreprise en Île-de-France. Gastronomie européenne et tradition marocaine, buffets, repas servis, chef à domicile. Devis sur WhatsApp.",
+    "formulesTitle": "Formules et menus : cocktail, buffet, repas servi, menu marocain | Maison ZH",
+    "formulesDescription": "Les formules de Maison ZH pour les mariages et réceptions en Île-de-France : cocktail, buffet, repas servi, menu marocain, menu mixte et chef à domicile. Plats signature et animations.",
+    "legalTitle": "Mentions légales | Maison ZH",
+    "legalDescription": "Mentions légales et données personnelles du site de Maison ZH, traiteur en Île-de-France."
+  },
+  "nav": {
+    "skip": "Aller au contenu",
+    "menu": "Menu",
+    "close": "Fermer le menu",
+    "home": "Maison ZH, accueil",
+    "mariages": "Mariages",
+    "receptions": "Réceptions",
+    "entreprises": "Entreprises",
+    "domicile": "Chef à domicile",
+    "realisations": "Réalisations",
+    "formules": "Formules et menus",
+    "contact": "Contact",
+    "quote": "Demander un devis",
+    "quoteShort": "Devis",
+    "language": "Langue",
+    "call": "Appeler Maison ZH"
+  },
+  "intro": { "skip": "Passer" },
+  "announce": { "close": "Fermer l'information" },
+  "hero": {
+    "eyebrow": "Traiteur · Mariages & réceptions · Île-de-France",
+    "title": "Deux cuisines, une seule exigence",
+    "text": "La finesse de la gastronomie européenne et la générosité de la grande table marocaine, réunies pour vos mariages, vos réceptions et vos dîners privés.",
+    "guestsLabel": "Combien d'invités ?",
+    "cta": "Demander un devis",
+    "whatsapp": "WhatsApp",
+    "alt": "Buffet de mariage Maison ZH dressé sur nappe vert sauge dans le jardin d'un château",
+    "proof": "{n} abonnés suivent nos tables sur Instagram"
+  },
+  "prestations": {
+    "eyebrow": "Nos prestations",
+    "title": "Pour quelle occasion ?",
+    "more": "Découvrir",
+    "items": [
+      { "id": "mariage", "name": "Mariage", "text": "Cocktail, buffet ou repas servi, du vin d'honneur au gâteau." },
+      { "id": "reception", "name": "Réception et fête de famille", "text": "Fiançailles, henné, baptême, anniversaire : une table à la hauteur." },
+      { "id": "entreprise", "name": "Entreprise", "text": "Cocktails, séminaires et soirées clients, en cuisine maison." },
+      { "id": "domicile", "name": "Chef à domicile", "text": "Un repas gastronomique préparé et servi chez vous, dès 4 personnes." }
+    ]
+  },
+  "engagements": {
+    "label": "Nos engagements",
+    "items": [
+      { "id": "maison", "title": "Tout est fait maison", "text": "Menus pensés pour l'occasion, produits sélectionnés, préparation par notre équipe." },
+      { "id": "cuisines", "title": "Deux traditions", "text": "Cuisine européenne raffinée et grande cuisine marocaine, seules ou réunies." },
+      { "id": "service", "title": "Service et installation", "text": "Dressage des buffets, service à l'assiette, équipe en salle." },
+      { "id": "devis", "title": "Un devis sur mesure", "text": "Votre demande arrive sur notre WhatsApp, nous vous répondons avec une proposition claire." }
+    ]
+  },
+  "univers": {
+    "eyebrow": "Nos deux univers",
+    "title": "La table française, l'âme marocaine",
+    "text": "Choisissez l'une ou l'autre, ou mariez-les : beaucoup de nos clients ouvrent sur une pastilla et terminent sur une pavlova.",
+    "toConfirm": "Plats signature tirés de nos réalisations ; la carte complète vous est envoyée avec le devis.",
+    "europeen": { "name": "Gastronomie européenne", "text": "Assiettes dressées, cuissons longues, desserts légers : une cuisine précise, servie à table ou en buffet.", "cta": "Voir le menu européen" },
+    "marocain": { "name": "Tradition marocaine", "text": "Pastillas, tajines aux fruits secs, méchoui, thé à la menthe : la grande table des fêtes marocaines.", "cta": "Voir le menu marocain" },
+    "dishes": {
+      "tartare": { "name": "Tartare mangue et avocat", "text": "Entrée fraîche en cercle, fleurs comestibles." },
+      "agneau": { "name": "Agneau confit, purée de carotte", "text": "Cuisson longue, jus réduit, herbes fraîches." },
+      "roti": { "name": "Rôti et ses accompagnements", "text": "Servi à l'assiette, légumes glacés et sauce maison." },
+      "volaille": { "name": "Suprême de volaille", "text": "Purée onctueuse, carottes rôties, fagot de haricots verts." },
+      "pavlova": { "name": "Pavlova aux fruits rouges", "text": "Meringue croustillante, crème légère, coulis de fruits rouges." },
+      "dome": { "name": "Dôme chocolat et fruits rouges", "text": "Dessert à l'assiette, dentelle de chocolat." },
+      "pastillaPoulet": { "name": "Pastilla au poulet et amandes", "text": "Feuilles croustillantes, amandes, cannelle et sucre glace." },
+      "pastillaMer": { "name": "Pastilla aux fruits de mer", "text": "Crevettes, citron, servie en entrée." },
+      "tajinePruneaux": { "name": "Tajine d'agneau aux pruneaux", "text": "Abricots, amandes grillées, sésame." },
+      "pouletCitron": { "name": "Poulet au citron confit et olives", "text": "Le classique des grandes tablées, servi en plat." },
+      "mechoui": { "name": "Méchoui", "text": "Pièce d'agneau rôtie présentée en salle, légumes et cumin." },
+      "douceurs": { "name": "Table des douceurs", "text": "Pâtisseries aux amandes, dattes et lait d'amande." }
+    }
+  },
+  "formules": {
+    "eyebrow": "Formules",
+    "title": "Une formule pour chaque réception",
+    "text": "Chaque devis est établi selon votre date, votre lieu et le nombre d'invités. Les prix détaillés vous sont envoyés avec le devis.",
+    "from": "À partir de",
+    "perPerson": "/ pers.",
+    "onQuote": "Sur devis",
+    "minGuests": "Dès {n} invités",
+    "minPeople": "Dès {n} personnes",
+    "minGuestsTbc": "Minimum à préciser",
+    "choose": "Demander cette formule",
+    "seeAll": "Toutes les formules et les menus",
+    "pageEyebrow": "Formules et menus",
+    "pageTitle": "Nos formules, nos menus",
+    "pageIntro": "Du cocktail de bienvenue au repas servi à l'assiette, en cuisine européenne, marocaine ou mixte. Chaque menu est ajusté à votre réception.",
+    "pageNote": "Les prix sont indiqués par personne, hors frais de déplacement éventuels. Service, vaisselle et installation sont détaillés dans le devis.",
+    "menusTitle": "Les plats signature",
+    "menusText": "Une sélection tirée de nos dernières réceptions. Le menu de votre événement se construit avec vous.",
+    "items": {
+      "cocktail": { "name": "Cocktail", "text": "Pour un vin d'honneur ou une réception debout.", "includes": ["Bouchées salées et sucrées", "Bar à mocktails", "Présentation sur buffet dressé"] },
+      "buffet": { "name": "Buffet", "text": "Un grand buffet généreux, entrée, plat et dessert.", "includes": ["Buffet dressé et décoré", "Entrées, plats chauds, desserts", "Plateaux de fruits"] },
+      "servi": { "name": "Repas servi", "text": "Le repas à l'assiette, servi à table par notre équipe.", "includes": ["Entrée, plat, dessert", "Dressage à l'assiette", "Service en salle"] },
+      "marocain": { "name": "Menu marocain", "text": "La grande table marocaine, de la pastilla au thé à la menthe.", "includes": ["Pastilla en entrée", "Tajine ou méchoui", "Douceurs et thé à la menthe"] },
+      "mixte": { "name": "Menu mixte", "text": "Les deux univers dans le même repas, selon vos envies.", "includes": ["Entrée marocaine ou européenne", "Plat au choix", "Dessert à l'assiette"] },
+      "domicile": { "name": "Chef à domicile", "text": "Un repas gastronomique préparé, dressé et servi chez vous.", "includes": ["Menu élaboré avec vous", "Préparation sur place", "Dressage et service"] }
+    }
+  },
+  "animations": {
+    "eyebrow": "Le show",
+    "title": "Des animations qui se regardent",
+    "text": "Un bar à mocktails à l'arrivée des invités, le service du thé, le méchoui présenté en salle : de quoi rythmer votre réception.",
+    "onQuote": "Sur devis",
+    "cta": "Ajouter une animation",
+    "items": {
+      "mocktails": { "name": "Bar à mocktails", "text": "Préparés à la minute pour le cocktail de bienvenue." },
+      "the": { "name": "Service du thé à la menthe", "text": "Versé en hauteur, dans les verres dorés." },
+      "mechoui": { "name": "Méchoui présenté en salle", "text": "La pièce d'agneau portée jusqu'aux tables." },
+      "fruits": { "name": "Plateaux de fruits", "text": "Fruits frais taillés et dressés pour la fin de soirée." }
+    }
+  },
+  "blocks": [
+    { "eyebrow": "La cuisine", "title": "Fait maison, des deux côtés de la Méditerranée", "text": "Nous élaborons chaque menu, sélectionnons les produits et préparons tout nous-mêmes. Une pastilla feuilletée à la main peut côtoyer une souris d'agneau confite : c'est ce mélange qui fait notre table.", "cta": "Voir les menus" },
+    { "eyebrow": "Le jour J", "title": "Le jour du mariage, on s'occupe de tout", "text": "Buffet dressé avant l'arrivée des invités, assiettes envoyées en même temps à toutes les tables, équipe en salle jusqu'au gâteau. Vous profitez, nous servons.", "cta": "Voir les réalisations" },
+    { "eyebrow": "Entreprises", "title": "Vos événements professionnels, avec le même soin", "text": "Cocktail de lancement, séminaire, soirée clients : bouchées raffinées, buffets ou plateaux, livrés ou servis sur place.", "cta": "Demander un devis" }
+  ],
+  "stats": {
+    "label": "Maison ZH en chiffres",
+    "items": [
+      { "value": "25 500", "label": "abonnés suivent nos réceptions sur Instagram" },
+      { "value": "2", "label": "traditions culinaires, européenne et marocaine" },
+      { "value": "4", "label": "couverts suffisent pour réserver le chef à domicile" }
+    ]
+  },
+  "realisations": {
+    "eyebrow": "Réalisations",
+    "title": "Nos dernières réceptions",
+    "text": "Mariages, réceptions et repas privés que nous avons eu la joie de servir.",
+    "guests": "{n} invités",
+    "see": "Voir sur Instagram",
+    "more": "Toutes nos réalisations sur Instagram",
+    "types": { "mariage": "Mariage", "reception": "Réception", "domicile": "Chef à domicile", "entreprise": "Entreprise" },
+    "items": {
+      "halah": { "title": "Halah & Achraf", "text": "Mariage en plein air, buffet dressé dans un parc, méchoui et plateaux de fruits." },
+      "yanis": { "title": "Yanis & Myriam", "text": "Cocktail de bienvenue au château, bar à mocktails, entrée, plat et dessert." },
+      "zayn": { "title": "Le premier anniversaire de Zayn", "text": "Chef à domicile : menu, préparation sur place, dressage et service." },
+      "chapiteau": { "title": "Réception sous chapiteau", "text": "Cocktail de bienvenue, entrée raffinée, plat généreux et dessert à l'assiette." },
+      "grandmorin": { "title": "Mariage au Domaine du Grand Morin", "text": "Pastilla au poulet, rôti et ses accompagnements, pavlova aux fruits rouges." },
+      "lina": { "title": "Lina & Hamza", "text": "Prestation complète : buffet, entrée, plat et dessert." }
+    }
+  },
+  "how": {
+    "eyebrow": "Comment ça marche",
+    "title": "De votre demande au jour J",
+    "steps": [
+      { "title": "Votre demande", "text": "Date, lieu, nombre d'invités, cuisine souhaitée : le formulaire nous envoie tout sur WhatsApp." },
+      { "title": "Le menu", "text": "Nous construisons le menu avec vous et validons ensemble chaque détail." },
+      { "title": "La préparation", "text": "Produits sélectionnés, tout est préparé par notre équipe pour votre date." },
+      { "title": "Le jour J", "text": "Installation, dressage, service : nous restons jusqu'au dessert." }
+    ]
+  },
+  "reviews": {
+    "eyebrow": "Avis",
+    "title": "Ils nous ont confié leur grand jour",
+    "empty": "Les témoignages de nos mariés sont à lire dans notre story « AVIS » sur Instagram.",
+    "cta": "Lire les avis sur Instagram"
+  },
+  "zone": {
+    "eyebrow": "Zone desservie",
+    "title": "Île-de-France et alentours",
+    "text": "Nous nous déplaçons dans toute l'Île-de-France, dans les salles, domaines et châteaux de la région, et au-delà sur demande.",
+    "departments": "Départements"
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Avant de réserver",
+    "items": [
+      { "q": "Combien de temps à l'avance faut-il réserver ?", "a": "Les samedis de mai à septembre partent vite. Écrivez-nous dès que votre date et votre lieu sont fixés : nous vous confirmons la disponibilité tout de suite." },
+      { "q": "Y a-t-il un minimum d'invités ?", "a": "Cela dépend de la formule. Le chef à domicile est possible dès 4 personnes ; pour les buffets et les repas servis, le minimum vous est indiqué avec le devis." },
+      { "q": "Peut-on organiser une dégustation ?", "a": "Mentionnez-le dans votre demande : les modalités de dégustation vous sont précisées avec le devis." },
+      { "q": "La viande est-elle halal ?", "a": "Indiquez-le dans votre demande : la provenance des viandes est précisée dans le devis." },
+      { "q": "Fournissez-vous la vaisselle et le service ?", "a": "Vous choisissez dans le formulaire entre la livraison seule et la prestation avec service et installation. Le devis détaille la vaisselle, le personnel et l'installation." },
+      { "q": "Vous déplacez-vous hors d'Île-de-France ?", "a": "Oui, sur demande. Indiquez le lieu de votre réception : les frais de déplacement figurent sur le devis." },
+      { "q": "Comment réserver ma date ?", "a": "La date est bloquée à la validation du devis, avec un acompte dont le montant y est indiqué." }
+    ]
+  },
+  "quote": {
+    "eyebrow": "Demande de devis",
+    "title": "Parlez-nous de votre réception",
+    "text": "Deux minutes suffisent. Votre demande arrive directement sur notre WhatsApp avec tous les détails, et nous revenons vers vous avec une proposition.",
+    "steps": { "event": "L'événement", "menu": "La cuisine", "contact": "Vos coordonnées" },
+    "fields": {
+      "eventType": "Type d'événement",
+      "eventTypes": { "mariage": "Mariage", "fiancailles": "Fiançailles", "henne": "Henné", "reception": "Réception", "entreprise": "Entreprise", "domicile": "Chef à domicile" },
+      "date": "Date",
+      "time": "Heure",
+      "city": "Ville ou lieu",
+      "cityPlaceholder": "ex. Domaine à Meaux (77)",
+      "guests": "Nombre d'invités",
+      "cuisine": "Cuisine souhaitée",
+      "cuisines": { "europeenne": "Européenne", "marocaine": "Marocaine", "mixte": "Mixte" },
+      "formula": "Formule",
+      "several": "plusieurs choix possibles",
+      "formulas": { "cocktail": "Cocktail", "buffet": "Buffet", "servi": "Repas servi", "animations": "Animations" },
+      "service": "Prestation",
+      "services": { "service": "Avec service et installation", "livraison": "Livraison seule" },
+      "budget": "Budget par personne",
+      "budgetNone": "Je ne sais pas encore",
+      "budgets": ["Moins de 40 €", "40 à 60 €", "60 à 90 €", "Plus de 90 €"],
+      "optional": "facultatif",
+      "name": "Nom",
+      "phone": "Téléphone",
+      "message": "Message",
+      "messagePlaceholder": "Plats souhaités, allergies, horaires, accès au lieu…",
+      "dateBooked": "Cette date est déjà très demandée : envoyez quand même votre demande, nous vous répondons vite."
+    },
+    "required": "Ce champ est nécessaire.",
+    "invalidPhone": "Ce numéro ne semble pas valide.",
+    "submit": "Envoyer ma demande sur WhatsApp",
+    "hint": "WhatsApp s'ouvre avec votre récapitulatif déjà rédigé : il ne reste qu'à appuyer sur « Envoyer ».",
+    "consent": "Vos informations servent uniquement à vous répondre.",
+    "prefilled": "{n} invités : c'est noté, il ne reste que quelques détails.",
+    "success": {
+      "title": "Merci, votre demande est prête",
+      "text": "Si WhatsApp ne s'est pas ouvert, utilisez le bouton ci-dessous. Nous revenons vers vous rapidement.",
+      "again": "Ouvrir WhatsApp",
+      "reset": "Faire une autre demande"
+    },
+    "message": {
+      "title": "Demande de devis – Maison ZH",
+      "event": "Événement",
+      "date": "Date",
+      "time": "Heure",
+      "city": "Lieu",
+      "guests": "Invités",
+      "cuisine": "Cuisine",
+      "formula": "Formule",
+      "service": "Prestation",
+      "budget": "Budget / pers.",
+      "name": "Nom",
+      "phone": "Téléphone",
+      "notes": "Message",
+      "ref": "Réf.",
+      "closing": "Merci de me recontacter pour le devis."
+    },
+    "deposit": "Régler l'acompte en ligne"
+  },
+  "whatsapp": {
+    "float": "Écrire à Maison ZH sur WhatsApp",
+    "hello": "Bonjour Maison ZH, je souhaite un devis pour une réception."
+  },
+  "mobileBar": { "quote": "Demander un devis", "call": "Appeler" },
+  "services": {
+    "back": "Toutes nos prestations",
+    "includesTitle": "Ce que nous prenons en charge",
+    "formulasTitle": "Formules conseillées",
+    "galleryTitle": "En images",
+    "items": {
+      "mariage": {
+        "metaTitle": "Traiteur mariage en Île-de-France – oriental, marocain et européen | Maison ZH",
+        "metaDescription": "Traiteur de mariage en Île-de-France : cocktail, buffet, repas servi, menu marocain ou mixte, animations. Maison ZH sert vos invités du vin d'honneur au gâteau.",
+        "eyebrow": "Traiteur mariage",
+        "title": "Un mariage qui se souvient de sa table",
+        "lead": "Vin d'honneur, buffet, repas servi à l'assiette : nous composons le repas de votre mariage en cuisine européenne, marocaine ou les deux, et nous le servons jusqu'au gâteau.",
+        "body": [
+          "Pour un mariage oriental comme pour un mariage plus classique, nous partons de vos envies : une pastilla au poulet en entrée, un rôti et ses accompagnements, une pavlova aux fruits rouges, ou un menu entièrement marocain avec tajines et méchoui.",
+          "Le jour J, notre équipe installe et dresse le buffet avant l'arrivée des invités, envoie les assiettes à toutes les tables et reste en salle jusqu'au dessert."
+        ],
+        "includes": ["Cocktail de bienvenue et bar à mocktails", "Buffet dressé ou repas servi à l'assiette", "Équipe de service en salle", "Plateaux de fruits et desserts"]
+      },
+      "reception": {
+        "metaTitle": "Traiteur réception haut de gamme en Île-de-France – fiançailles, henné, baptême | Maison ZH",
+        "metaDescription": "Traiteur pour vos réceptions et fêtes de famille en Île-de-France : fiançailles, henné, baptême, anniversaire. Buffets et repas servis, cuisine européenne et marocaine.",
+        "eyebrow": "Réceptions et fêtes de famille",
+        "title": "Fiançailles, henné, baptême : recevez sans compter",
+        "lead": "Une réception réussie commence dès les premières minutes : cocktail raffiné, bouchées délicates, buffet généreux, et un dessert pour finir en beauté.",
+        "body": [
+          "Nous accompagnons les fiançailles, les soirées de henné, les baptêmes et les anniversaires, dans une salle, un jardin ou chez vous.",
+          "Chaque réception est pensée sur mesure : nombre d'invités, déroulé de la soirée, cuisine européenne, marocaine ou mixte."
+        ],
+        "includes": ["Cocktail de bienvenue personnalisé", "Buffet salé et sucré", "Service du thé à la menthe", "Livraison ou service sur place"]
+      },
+      "entreprise": {
+        "metaTitle": "Traiteur entreprise à Paris et en Île-de-France – cocktail, séminaire | Maison ZH",
+        "metaDescription": "Traiteur pour vos événements d'entreprise à Paris et en Île-de-France : cocktails, séminaires, soirées clients. Cuisine maison européenne et marocaine.",
+        "eyebrow": "Traiteur entreprise",
+        "title": "Vos événements professionnels, avec le même soin",
+        "lead": "Cocktail de lancement, séminaire, déjeuner d'équipe ou soirée clients : une cuisine maison qui fait bonne impression, livrée ou servie sur place.",
+        "body": [
+          "Bouchées salées et sucrées, mini-burgers, verrines, plateaux : nous composons un cocktail dînatoire adapté à votre horaire et à votre public.",
+          "Pour les événements plus formels, nous proposons un buffet ou un repas servi, avec la même exigence que pour nos mariages."
+        ],
+        "includes": ["Cocktail dînatoire ou buffet", "Bar à mocktails", "Livraison ou service sur place", "Devis détaillé pour votre service achats"]
+      },
+      "domicile": {
+        "metaTitle": "Chef à domicile en Île-de-France – cuisine marocaine et gastronomique | Maison ZH",
+        "metaDescription": "Chef à domicile en Île-de-France dès 4 personnes : menu élaboré avec vous, préparation sur place, dressage et service. Cuisine européenne et marocaine.",
+        "eyebrow": "Chef à domicile",
+        "title": "Le restaurant vient chez vous",
+        "lead": "Dès 4 personnes, nous transformons votre repas en moment d'exception : un menu pensé pour vous, préparé dans votre cuisine et servi à votre table.",
+        "body": [
+          "Élaboration du menu, sélection des produits, préparation sur place, dressage des assiettes et service : nous prenons tout en charge, du dîner en amoureux à l'anniversaire en famille.",
+          "Mariage religieux à la maison, premier anniversaire, dîner privé : la cuisine marocaine et la gastronomie européenne s'invitent chez vous."
+        ],
+        "includes": ["Menu élaboré avec vous", "Courses et produits frais", "Préparation et dressage sur place", "Service à table"]
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Traiteur mariages et réceptions, gastronomie européenne et tradition marocaine, en Île-de-France et alentours.",
+    "contact": "Contact",
+    "zone": "Zone desservie",
+    "zoneText": "Île-de-France et alentours",
+    "follow": "Suivez-nous",
+    "legal": "Mentions légales",
+    "rights": "Tous droits réservés.",
+    "pages": "Prestations"
+  },
+  "legal": {
+    "title": "Mentions légales",
+    "back": "Retour à l'accueil",
+    "sections": [
+      { "title": "Éditeur du site", "text": "Maison ZH, traiteur pour les mariages et réceptions en Île-de-France. Forme juridique, SIRET, adresse et responsable de la publication : à remplir. Téléphone : 06 21 28 31 01." },
+      { "title": "Hébergement", "text": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis." },
+      { "title": "Photos", "text": "Toutes les photos du site sont celles de Maison ZH, publiées sur son compte Instagram @traiteur_maisonzh. Toute reproduction est interdite sans accord." },
+      { "title": "Données personnelles", "text": "Le formulaire de devis n'enregistre rien sur ce site : il prépare un message WhatsApp que vous envoyez vous-même. Les informations reçues servent uniquement à répondre à votre demande. Le site ne dépose aucun cookie publicitaire ; seul un cookie technique retient la langue choisie." }
+    ]
+  },
+  "notFound": {
+    "title": "Cette page n'existe pas",
+    "text": "Ce plat n'est pas à la carte. Revenez à l'accueil pour découvrir nos formules.",
+    "back": "Retour à l'accueil"
+  },
+  "alt": {
+    "buffet-chateau-nappe-sauge": "Buffet de mariage dressé sur nappe vert sauge dans le jardin d'un château",
+    "buffet-chateau-bouchees": "Bouchées salées sur coupes et présentoirs, buffet en plein air",
+    "buffet-mariage-parc": "Buffet de mariage en plein air dans un parc, roses rouges et verrines",
+    "buffet-fleurs-blanches": "Buffet de réception aux fleurs blanches, mini-burgers et bouchées dorées",
+    "table-dressee-chapiteau": "Table de mariage dressée sous chapiteau, couverts dorés et gypsophile",
+    "buffet-cocktail-terrasse": "Buffet cocktail fleuri sur une terrasse, bouchées et mocktails",
+    "buffet-cocktail-mini-burgers": "Buffet de mariage sur présentoirs blancs, mini-burgers et feuilletés",
+    "pastilla-fruits-de-mer": "Pastillas aux fruits de mer servies dans des assiettes en faïence bleue",
+    "tajines-faience-bleue": "Tajines en faïence bleue et blanche prêts à être servis",
+    "tajine-pruneaux-amandes": "Tajine d'agneau aux pruneaux et amandes, fleur comestible",
+    "pastilla-poulet-amandes": "Pastilla au poulet décorée d'amandes et de pétales de rose",
+    "agneau-pruneaux-abricots": "Agneau aux pruneaux, abricots et amandes dressé à l'assiette",
+    "poulet-citron-confit-olives": "Poulet au citron confit et olives, servi sur plat d'argent",
+    "poulet-olives-plat": "Grand plat de poulet aux olives pour une table de mariage",
+    "tajine-fruits-secs": "Tajine aux fruits secs, abricots, pruneaux et amandes",
+    "table-douceurs-dattes-bougies": "Table de douceurs marocaines, dattes et chandeliers",
+    "tartare-mangue-avocat": "Tartare mangue et avocat dressé dans une assiette en céramique",
+    "agneau-puree-carotte": "Agneau confit sur purée de carotte, herbes fraîches",
+    "pavlova-fruits-rouges": "Pavlova aux fruits rouges et fleurs comestibles",
+    "roti-legumes-glaces": "Rôti servi à l'assiette avec légumes glacés et sauce",
+    "pavlovas-service": "Pavlovas aux fruits rouges alignées avant le service",
+    "volaille-fagot-haricots": "Suprême de volaille, purée, carottes rôties et fagot de haricots verts",
+    "dome-chocolat-fruits-rouges": "Desserts en dentelle de chocolat et fruits rouges prêts à servir",
+    "the-a-la-menthe": "Thé à la menthe versé dans des verres dorés",
+    "bar-a-mocktails": "Bar à mocktails colorés sur présentoirs blancs",
+    "mocktail-minute": "Mocktail citron vert préparé à la minute",
+    "mechoui-service": "Méchoui d'agneau porté en salle avec légumes",
+    "plateaux-de-fruits": "Plateaux de fruits frais taillés et dressés",
+    "verrines-passion": "Verrines aux fruits de la passion sur un buffet de réception",
+    "plateau-cocktail-dinatoire": "Plateau de cocktail dînatoire, mini-burgers et gaufres salées",
+    "bouchees-cocktail": "Bouchées de cocktail et fleurs blanches sur un buffet",
+    "table-chef-a-domicile": "Table dressée aux chandelles pour un dîner de chef à domicile",
+    "buffet-anniversaire": "Buffet d'anniversaire dans une cour en pierre, chandeliers bleus",
+    "patisseries-amandes": "Pâtisseries aux amandes en préparation"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_note": "Plats signature des deux univers, repérés sur ses publications Instagram (photos et légendes). confirmed: true = cité dans une légende ; false = vu en photo, intitulé à valider. À COMPLÉTER avec les stories « MENU » et « MAROCAIN ». Noms et descriptions dans locales/*.json → univers.dishes.",
+  "europeen": [
+    { "id": "tartare", "confirmed": false, "image": "/media/europeen/tartare-mangue-avocat.jpg" },
+    { "id": "agneau", "confirmed": false, "image": "/media/europeen/agneau-puree-carotte.jpg" },
+    { "id": "roti", "confirmed": true, "image": "/media/europeen/roti-legumes-glaces.jpg" },
+    { "id": "volaille", "confirmed": false, "image": "/media/europeen/volaille-fagot-haricots.jpg" },
+    { "id": "pavlova", "confirmed": true, "image": "/media/europeen/pavlova-fruits-rouges.jpg" },
+    { "id": "dome", "confirmed": false, "image": "/media/europeen/dome-chocolat-fruits-rouges.jpg" }
+  ],
+  "marocain": [
+    { "id": "pastillaPoulet", "confirmed": true, "image": "/media/marocain/pastilla-poulet-amandes.jpg" },
+    { "id": "pastillaMer", "confirmed": false, "image": "/media/marocain/pastilla-fruits-de-mer.jpg" },
+    { "id": "tajinePruneaux", "confirmed": false, "image": "/media/marocain/tajine-pruneaux-amandes.jpg" },
+    { "id": "pouletCitron", "confirmed": false, "image": "/media/marocain/poulet-citron-confit-olives.jpg" },
+    { "id": "mechoui", "confirmed": false, "image": "/media/animations/mechoui-service.jpg" },
+    { "id": "douceurs", "confirmed": false, "image": "/media/marocain/table-douceurs-dattes-bougies.jpg" }
+  ]
+}

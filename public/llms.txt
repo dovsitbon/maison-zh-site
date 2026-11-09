@@ -1,0 +1,19 @@
+# Maison ZH
+
+> Traiteur haut de gamme pour les mariages, réceptions et événements d'entreprise en Île-de-France et alentours, avec un service de chef à domicile. Double cuisine : gastronomie européenne et tradition marocaine.
+
+- Téléphone et WhatsApp : +33 6 21 28 31 01
+- Instagram : https://www.instagram.com/traiteur_maisonzh/ (environ 25 500 abonnés)
+- Zone : Île-de-France et alentours
+- Chef à domicile : dès 4 personnes
+- Devis : formulaire du site, envoyé sur WhatsApp
+
+## Pages
+
+- [Accueil](https://maison-zh.vercel.app/fr): prestations, deux univers, formules, animations, réalisations, FAQ, devis
+- [Traiteur mariage](https://maison-zh.vercel.app/fr/mariage)
+- [Réceptions et fêtes de famille](https://maison-zh.vercel.app/fr/reception)
+- [Traiteur entreprise](https://maison-zh.vercel.app/fr/entreprise)
+- [Chef à domicile](https://maison-zh.vercel.app/fr/chef-a-domicile)
+- [Formules et menus](https://maison-zh.vercel.app/fr/formules)
+- Versions arabe (/ar) et anglaise (/en)

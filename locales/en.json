@@ -1,0 +1,369 @@
+{
+  "meta": {
+    "title": "Wedding and event caterer in Île-de-France – European and Moroccan cuisine | Maison ZH",
+    "description": "Maison ZH, high-end caterer for weddings, receptions and corporate events around Paris and Île-de-France. Refined European cooking and Moroccan tradition, buffets, plated dinners, private chef. Quotes on WhatsApp.",
+    "formulesTitle": "Packages and menus: cocktail, buffet, plated dinner, Moroccan menu | Maison ZH",
+    "formulesDescription": "Maison ZH packages for weddings and receptions in Île-de-France: cocktail, buffet, plated dinner, Moroccan menu, mixed menu and private chef. Signature dishes and live stations.",
+    "legalTitle": "Legal notice | Maison ZH",
+    "legalDescription": "Legal notice and personal data for the Maison ZH website, caterer in Île-de-France."
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "close": "Close menu",
+    "home": "Maison ZH, home",
+    "mariages": "Weddings",
+    "receptions": "Receptions",
+    "entreprises": "Corporate",
+    "domicile": "Private chef",
+    "realisations": "Our events",
+    "formules": "Packages and menus",
+    "contact": "Contact",
+    "quote": "Request a quote",
+    "quoteShort": "Quote",
+    "language": "Language",
+    "call": "Call Maison ZH"
+  },
+  "intro": { "skip": "Skip" },
+  "announce": { "close": "Close notice" },
+  "hero": {
+    "eyebrow": "Caterer · Weddings & receptions · Paris region",
+    "title": "Two cuisines, one standard",
+    "text": "The finesse of European gastronomy and the generosity of the great Moroccan table, brought together for your weddings, receptions and private dinners.",
+    "guestsLabel": "How many guests?",
+    "cta": "Request a quote",
+    "whatsapp": "WhatsApp",
+    "alt": "Maison ZH wedding buffet laid on a sage-green tablecloth in a château garden",
+    "proof": "{n} followers enjoy our tables on Instagram"
+  },
+  "prestations": {
+    "eyebrow": "What we do",
+    "title": "What are you celebrating?",
+    "more": "Discover",
+    "items": [
+      { "id": "mariage", "name": "Wedding", "text": "Cocktail, buffet or plated dinner, from the drinks reception to the cake." },
+      { "id": "reception", "name": "Receptions and family parties", "text": "Engagements, henna nights, christenings, birthdays: a table to match." },
+      { "id": "entreprise", "name": "Corporate", "text": "Cocktails, seminars and client evenings, all home-made." },
+      { "id": "domicile", "name": "Private chef", "text": "A fine-dining meal cooked and served in your home, from 4 guests." }
+    ]
+  },
+  "engagements": {
+    "label": "Our promises",
+    "items": [
+      { "id": "maison", "title": "Everything home-made", "text": "Menus designed for the occasion, carefully sourced produce, cooked by our own team." },
+      { "id": "cuisines", "title": "Two traditions", "text": "Refined European cooking and grand Moroccan cuisine, on their own or together." },
+      { "id": "service", "title": "Service and set-up", "text": "Buffets laid out, plated service, staff in the room." },
+      { "id": "devis", "title": "A tailored quote", "text": "Your request lands on our WhatsApp and we reply with a clear proposal." }
+    ]
+  },
+  "univers": {
+    "eyebrow": "Two worlds",
+    "title": "French finesse, Moroccan soul",
+    "text": "Choose one or bring them together: many of our clients open with a pastilla and finish with a pavlova.",
+    "toConfirm": "Signature dishes from our recent events; the full menu comes with your quote.",
+    "europeen": { "name": "European gastronomy", "text": "Plated dishes, slow cooking, light desserts: precise cooking, served at the table or as a buffet.", "cta": "See the European menu" },
+    "marocain": { "name": "Moroccan tradition", "text": "Pastillas, tagines with dried fruit, mechoui, mint tea: the great table of Moroccan celebrations.", "cta": "See the Moroccan menu" },
+    "dishes": {
+      "tartare": { "name": "Mango and avocado tartare", "text": "A fresh ring-moulded starter with edible flowers." },
+      "agneau": { "name": "Slow-cooked lamb, carrot purée", "text": "Long braise, reduced jus, fresh herbs." },
+      "roti": { "name": "Roast with its trimmings", "text": "Plated, with glazed vegetables and house sauce." },
+      "volaille": { "name": "Chicken supreme", "text": "Silky mash, roasted carrots, green bean bundle." },
+      "pavlova": { "name": "Red berry pavlova", "text": "Crisp meringue, light cream, berry coulis." },
+      "dome": { "name": "Chocolate and red berry dome", "text": "A plated dessert in a chocolate lace case." },
+      "pastillaPoulet": { "name": "Chicken and almond pastilla", "text": "Crisp pastry, almonds, cinnamon and icing sugar." },
+      "pastillaMer": { "name": "Seafood pastilla", "text": "Prawns and lemon, served as a starter." },
+      "tajinePruneaux": { "name": "Lamb tagine with prunes", "text": "Apricots, toasted almonds, sesame." },
+      "pouletCitron": { "name": "Chicken with preserved lemon and olives", "text": "The classic of big celebrations, served as a main." },
+      "mechoui": { "name": "Mechoui", "text": "Roast lamb brought into the room, vegetables and cumin." },
+      "douceurs": { "name": "Sweet table", "text": "Almond pastries, dates and almond milk." }
+    }
+  },
+  "formules": {
+    "eyebrow": "Packages",
+    "title": "A package for every reception",
+    "text": "Every quote is based on your date, venue and number of guests. Detailed prices come with your quote.",
+    "from": "From",
+    "perPerson": "/ guest",
+    "onQuote": "On request",
+    "minGuests": "From {n} guests",
+    "minPeople": "From {n} people",
+    "minGuestsTbc": "Minimum to be confirmed",
+    "choose": "Ask about this package",
+    "seeAll": "All packages and menus",
+    "pageEyebrow": "Packages and menus",
+    "pageTitle": "Our packages, our menus",
+    "pageIntro": "From the welcome cocktail to the plated dinner, in European, Moroccan or mixed cuisine. Every menu is shaped around your reception.",
+    "pageNote": "Prices are per guest, excluding any travel costs. Service, tableware and set-up are detailed in the quote.",
+    "menusTitle": "Signature dishes",
+    "menusText": "A selection from our latest receptions. The menu for your event is built with you.",
+    "items": {
+      "cocktail": { "name": "Cocktail", "text": "For a drinks reception or a standing event.", "includes": ["Savoury and sweet bites", "Mocktail bar", "Styled buffet display"] },
+      "buffet": { "name": "Buffet", "text": "A generous buffet: starter, main and dessert.", "includes": ["Styled, decorated buffet", "Starters, hot dishes, desserts", "Fruit platters"] },
+      "servi": { "name": "Plated dinner", "text": "A plated meal served at the table by our team.", "includes": ["Starter, main, dessert", "Plated presentation", "Table service"] },
+      "marocain": { "name": "Moroccan menu", "text": "The great Moroccan table, from pastilla to mint tea.", "includes": ["Pastilla to start", "Tagine or mechoui", "Sweets and mint tea"] },
+      "mixte": { "name": "Mixed menu", "text": "Both worlds in a single meal, as you wish.", "includes": ["Moroccan or European starter", "Main of your choice", "Plated dessert"] },
+      "domicile": { "name": "Private chef", "text": "A fine-dining meal cooked, plated and served in your home.", "includes": ["Menu designed with you", "Cooked on site", "Plating and service"] }
+    }
+  },
+  "animations": {
+    "eyebrow": "The show",
+    "title": "Live touches your guests will watch",
+    "text": "A mocktail bar as guests arrive, mint tea poured at the table, the mechoui carried into the room: moments that set the pace of your evening.",
+    "onQuote": "On request",
+    "cta": "Add a live station",
+    "items": {
+      "mocktails": { "name": "Mocktail bar", "text": "Made to order for the welcome cocktail." },
+      "the": { "name": "Mint tea service", "text": "Poured from a height into gold-rimmed glasses." },
+      "mechoui": { "name": "Mechoui served in the room", "text": "The roast lamb carried to the tables." },
+      "fruits": { "name": "Fruit platters", "text": "Fresh fruit cut and arranged for the end of the night." }
+    }
+  },
+  "blocks": [
+    { "eyebrow": "The cooking", "title": "Home-made, from both shores of the Mediterranean", "text": "We design every menu, choose the produce and cook everything ourselves. A hand-folded pastilla can sit beside slow-cooked lamb: that blend is what makes our table.", "cta": "See the menus" },
+    { "eyebrow": "The big day", "title": "On your wedding day, we take care of everything", "text": "Buffet set before guests arrive, plates sent to every table at once, staff in the room until the cake. You enjoy, we serve.", "cta": "See our events" },
+    { "eyebrow": "Corporate", "title": "Your business events, with the same care", "text": "Launch cocktail, seminar, client evening: refined bites, buffets or platters, delivered or served on site.", "cta": "Request a quote" }
+  ],
+  "stats": {
+    "label": "Maison ZH in numbers",
+    "items": [
+      { "value": "25,500", "label": "followers watch our receptions on Instagram" },
+      { "value": "2", "label": "culinary traditions, European and Moroccan" },
+      { "value": "4", "label": "guests are enough to book the private chef" }
+    ]
+  },
+  "realisations": {
+    "eyebrow": "Our events",
+    "title": "Our latest receptions",
+    "text": "Weddings, receptions and private dinners we had the joy of serving.",
+    "guests": "{n} guests",
+    "see": "View on Instagram",
+    "more": "All our events on Instagram",
+    "types": { "mariage": "Wedding", "reception": "Reception", "domicile": "Private chef", "entreprise": "Corporate" },
+    "items": {
+      "halah": { "title": "Halah & Achraf", "text": "Outdoor wedding, buffet set in a park, mechoui and fruit platters." },
+      "yanis": { "title": "Yanis & Myriam", "text": "Welcome cocktail at a château, mocktail bar, starter, main and dessert." },
+      "zayn": { "title": "Zayn's first birthday", "text": "Private chef: menu, cooking on site, plating and service." },
+      "chapiteau": { "title": "Marquee reception", "text": "Welcome cocktail, refined starter, generous main and plated dessert." },
+      "grandmorin": { "title": "Wedding at Domaine du Grand Morin", "text": "Chicken pastilla, roast with trimmings, red berry pavlova." },
+      "lina": { "title": "Lina & Hamza", "text": "Full service: buffet, starter, main and dessert." }
+    }
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "From your request to the big day",
+    "steps": [
+      { "title": "Your request", "text": "Date, venue, guest count, cuisine: the form sends it all to us on WhatsApp." },
+      { "title": "The menu", "text": "We build the menu with you and agree every detail together." },
+      { "title": "The preparation", "text": "Carefully chosen produce, everything cooked by our team for your date." },
+      { "title": "The big day", "text": "Set-up, plating, service: we stay until dessert." }
+    ]
+  },
+  "reviews": {
+    "eyebrow": "Reviews",
+    "title": "They trusted us with their big day",
+    "empty": "Read what our couples say in the « AVIS » story highlight on our Instagram.",
+    "cta": "Read reviews on Instagram"
+  },
+  "zone": {
+    "eyebrow": "Where we cater",
+    "title": "Paris, Île-de-France and beyond",
+    "text": "We travel across Île-de-France, to the region's halls, estates and châteaux, and further on request.",
+    "departments": "Départements"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Before you book",
+    "items": [
+      { "q": "How far ahead should we book?", "a": "Saturdays from May to September go quickly. Write to us as soon as your date and venue are set: we confirm availability straight away." },
+      { "q": "Is there a minimum number of guests?", "a": "It depends on the package. The private chef is available from 4 guests; for buffets and plated dinners, the minimum is given with your quote." },
+      { "q": "Can we arrange a tasting?", "a": "Mention it in your request: tasting arrangements are explained with your quote." },
+      { "q": "Is the meat halal?", "a": "Mention it in your request: the origin of the meat is stated in your quote." },
+      { "q": "Do you provide tableware and service?", "a": "In the form you choose between delivery only and full service with set-up. The quote details tableware, staff and set-up." },
+      { "q": "Do you travel outside Île-de-France?", "a": "Yes, on request. Tell us where your reception is: travel costs appear on the quote." },
+      { "q": "How do I secure my date?", "a": "Your date is held once you accept the quote, with a deposit whose amount is shown on it." }
+    ]
+  },
+  "quote": {
+    "eyebrow": "Request a quote",
+    "title": "Tell us about your reception",
+    "text": "It takes two minutes. Your request goes straight to our WhatsApp with every detail, and we come back to you with a proposal.",
+    "steps": { "event": "The event", "menu": "The cuisine", "contact": "Your details" },
+    "fields": {
+      "eventType": "Type of event",
+      "eventTypes": { "mariage": "Wedding", "fiancailles": "Engagement", "henne": "Henna night", "reception": "Reception", "entreprise": "Corporate", "domicile": "Private chef" },
+      "date": "Date",
+      "time": "Time",
+      "city": "Town or venue",
+      "cityPlaceholder": "e.g. Estate near Meaux (77)",
+      "guests": "Number of guests",
+      "cuisine": "Preferred cuisine",
+      "cuisines": { "europeenne": "European", "marocaine": "Moroccan", "mixte": "Mixed" },
+      "formula": "Package",
+      "several": "choose as many as you like",
+      "formulas": { "cocktail": "Cocktail", "buffet": "Buffet", "servi": "Plated dinner", "animations": "Live stations" },
+      "service": "Service",
+      "services": { "service": "With service and set-up", "livraison": "Delivery only" },
+      "budget": "Budget per guest",
+      "budgetNone": "Not sure yet",
+      "budgets": ["Under €40", "€40 to €60", "€60 to €90", "Over €90"],
+      "optional": "optional",
+      "name": "Name",
+      "phone": "Phone",
+      "message": "Message",
+      "messagePlaceholder": "Dishes you'd like, allergies, timings, venue access…",
+      "dateBooked": "This date is already in high demand: send your request anyway, we'll reply quickly."
+    },
+    "required": "This field is required.",
+    "invalidPhone": "This number doesn't look valid.",
+    "submit": "Send my request on WhatsApp",
+    "hint": "WhatsApp opens with your summary already written: just press « Send ».",
+    "consent": "Your details are only used to reply to you.",
+    "prefilled": "{n} guests: noted, just a few details left.",
+    "success": {
+      "title": "Thank you, your request is ready",
+      "text": "If WhatsApp didn't open, use the button below. We'll get back to you soon.",
+      "again": "Open WhatsApp",
+      "reset": "Make another request"
+    },
+    "message": {
+      "title": "Quote request – Maison ZH",
+      "event": "Event",
+      "date": "Date",
+      "time": "Time",
+      "city": "Venue",
+      "guests": "Guests",
+      "cuisine": "Cuisine",
+      "formula": "Package",
+      "service": "Service",
+      "budget": "Budget / guest",
+      "name": "Name",
+      "phone": "Phone",
+      "notes": "Message",
+      "ref": "Ref.",
+      "closing": "Please get back to me with a quote."
+    },
+    "deposit": "Pay the deposit online"
+  },
+  "whatsapp": {
+    "float": "Message Maison ZH on WhatsApp",
+    "hello": "Hello Maison ZH, I'd like a quote for a reception."
+  },
+  "mobileBar": { "quote": "Request a quote", "call": "Call" },
+  "services": {
+    "back": "All our services",
+    "includesTitle": "What we take care of",
+    "formulasTitle": "Recommended packages",
+    "galleryTitle": "In pictures",
+    "items": {
+      "mariage": {
+        "metaTitle": "Wedding caterer in Paris and Île-de-France – Moroccan, oriental and European | Maison ZH",
+        "metaDescription": "Wedding caterer in Île-de-France: cocktail, buffet, plated dinner, Moroccan or mixed menu, live stations. Maison ZH serves your guests from the drinks reception to the cake.",
+        "eyebrow": "Wedding catering",
+        "title": "A wedding remembered for its table",
+        "lead": "Drinks reception, buffet, plated dinner: we compose your wedding meal in European cuisine, Moroccan cuisine or both, and serve it until the cake.",
+        "body": [
+          "For an oriental wedding or a more classic one, we start from what you love: chicken pastilla to start, a roast with its trimmings, a red berry pavlova, or a fully Moroccan menu with tagines and mechoui.",
+          "On the day, our team sets up and dresses the buffet before guests arrive, sends plates to every table and stays in the room until dessert."
+        ],
+        "includes": ["Welcome cocktail and mocktail bar", "Styled buffet or plated dinner", "Waiting staff in the room", "Fruit platters and desserts"]
+      },
+      "reception": {
+        "metaTitle": "High-end reception caterer in Île-de-France – engagements, henna, christenings | Maison ZH",
+        "metaDescription": "Caterer for receptions and family parties around Paris: engagements, henna nights, christenings, birthdays. Buffets and plated dinners, European and Moroccan cuisine.",
+        "eyebrow": "Receptions and family parties",
+        "title": "Engagements, henna, christenings: entertain generously",
+        "lead": "A great reception starts in the first few minutes: a refined cocktail, delicate bites, a generous buffet and a dessert to end on a high.",
+        "body": [
+          "We cater engagements, henna nights, christenings and birthdays, in a hall, a garden or your home.",
+          "Every reception is tailored: guest count, running order, European, Moroccan or mixed cuisine."
+        ],
+        "includes": ["Personalised welcome cocktail", "Savoury and sweet buffet", "Mint tea service", "Delivery or on-site service"]
+      },
+      "entreprise": {
+        "metaTitle": "Corporate caterer in Paris and Île-de-France – cocktails, seminars | Maison ZH",
+        "metaDescription": "Caterer for corporate events in Paris and Île-de-France: cocktails, seminars, client evenings. Home-made European and Moroccan cuisine.",
+        "eyebrow": "Corporate catering",
+        "title": "Your business events, with the same care",
+        "lead": "Launch cocktail, seminar, team lunch or client evening: home-made food that makes a good impression, delivered or served on site.",
+        "body": [
+          "Savoury and sweet bites, mini burgers, verrines, platters: we build a cocktail menu suited to your timing and your guests.",
+          "For more formal occasions, we offer a buffet or a plated dinner, with the same standards as our weddings."
+        ],
+        "includes": ["Cocktail menu or buffet", "Mocktail bar", "Delivery or on-site service", "Itemised quote for your purchasing team"]
+      },
+      "domicile": {
+        "metaTitle": "Private chef in Paris and Île-de-France – Moroccan and fine dining | Maison ZH",
+        "metaDescription": "Private chef in Île-de-France from 4 guests: menu designed with you, cooked on site, plated and served. European and Moroccan cuisine.",
+        "eyebrow": "Private chef",
+        "title": "The restaurant comes to you",
+        "lead": "From 4 guests, we turn your meal into something special: a menu designed for you, cooked in your kitchen and served at your table.",
+        "body": [
+          "Menu design, sourcing, cooking on site, plating and service: we handle everything, from a dinner for two to a family birthday.",
+          "Religious wedding at home, a first birthday, a private dinner: Moroccan cuisine and European gastronomy come to your home."
+        ],
+        "includes": ["Menu designed with you", "Shopping and fresh produce", "Cooking and plating on site", "Table service"]
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Caterer for weddings and receptions, European gastronomy and Moroccan tradition, in Île-de-France and beyond.",
+    "contact": "Contact",
+    "zone": "Where we cater",
+    "zoneText": "Île-de-France and beyond",
+    "follow": "Follow us",
+    "legal": "Legal notice",
+    "rights": "All rights reserved.",
+    "pages": "Services"
+  },
+  "legal": {
+    "title": "Legal notice",
+    "back": "Back to home",
+    "sections": [
+      { "title": "Publisher", "text": "Maison ZH, caterer for weddings and receptions in Île-de-France. Legal form, SIRET number, address and publication manager: to be completed. Phone: +33 6 21 28 31 01." },
+      { "title": "Hosting", "text": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, United States." },
+      { "title": "Photos", "text": "All photos on this site belong to Maison ZH and are published on its Instagram account @traiteur_maisonzh. Reproduction is forbidden without permission." },
+      { "title": "Personal data", "text": "The quote form stores nothing on this site: it prepares a WhatsApp message that you send yourself. The information received is only used to answer your request. The site sets no advertising cookies; a single technical cookie remembers your chosen language." }
+    ]
+  },
+  "notFound": {
+    "title": "This page doesn't exist",
+    "text": "That dish isn't on the menu. Head back home to see our packages.",
+    "back": "Back to home"
+  },
+  "alt": {
+    "buffet-chateau-nappe-sauge": "Wedding buffet on a sage-green tablecloth in a château garden",
+    "buffet-chateau-bouchees": "Savoury bites on stands and coupes, outdoor buffet",
+    "buffet-mariage-parc": "Outdoor wedding buffet in a park, red roses and verrines",
+    "buffet-fleurs-blanches": "Reception buffet with white flowers, mini burgers and golden bites",
+    "table-dressee-chapiteau": "Wedding table set under a marquee, gold cutlery and gypsophila",
+    "buffet-cocktail-terrasse": "Flower-decked cocktail buffet on a terrace, bites and mocktails",
+    "buffet-cocktail-mini-burgers": "Wedding buffet on white stands, mini burgers and pastries",
+    "pastilla-fruits-de-mer": "Seafood pastillas served on blue earthenware plates",
+    "tajines-faience-bleue": "Blue and white earthenware tagines ready to serve",
+    "tajine-pruneaux-amandes": "Lamb tagine with prunes and almonds, edible flower",
+    "pastilla-poulet-amandes": "Chicken pastilla topped with almonds and rose petals",
+    "agneau-pruneaux-abricots": "Lamb with prunes, apricots and almonds, plated",
+    "poulet-citron-confit-olives": "Chicken with preserved lemon and olives on a silver platter",
+    "poulet-olives-plat": "Large platter of chicken with olives for a wedding table",
+    "tajine-fruits-secs": "Tagine with dried fruit, apricots, prunes and almonds",
+    "table-douceurs-dattes-bougies": "Moroccan sweet table with dates and candelabras",
+    "tartare-mangue-avocat": "Mango and avocado tartare in a ceramic bowl",
+    "agneau-puree-carotte": "Slow-cooked lamb on carrot purée with fresh herbs",
+    "pavlova-fruits-rouges": "Red berry pavlova with edible flowers",
+    "roti-legumes-glaces": "Plated roast with glazed vegetables and sauce",
+    "pavlovas-service": "Red berry pavlovas lined up before service",
+    "volaille-fagot-haricots": "Chicken supreme, mash, roasted carrots and green bean bundle",
+    "dome-chocolat-fruits-rouges": "Chocolate lace desserts with red berries ready to serve",
+    "the-a-la-menthe": "Mint tea poured into gold-rimmed glasses",
+    "bar-a-mocktails": "Colourful mocktail bar on white stands",
+    "mocktail-minute": "Lime mocktail made to order",
+    "mechoui-service": "Lamb mechoui carried into the room with vegetables",
+    "plateaux-de-fruits": "Fresh fruit platters, cut and arranged",
+    "verrines-passion": "Passion fruit verrines on a reception buffet",
+    "plateau-cocktail-dinatoire": "Cocktail platter with mini burgers and savoury waffles",
+    "bouchees-cocktail": "Cocktail bites and white flowers on a buffet",
+    "table-chef-a-domicile": "Candlelit table set for a private chef dinner",
+    "buffet-anniversaire": "Birthday buffet in a stone courtyard, blue candelabra",
+    "patisseries-amandes": "Almond pastries being prepared"
+  }
+}

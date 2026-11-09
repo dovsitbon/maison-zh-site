@@ -1,0 +1,11 @@
+{
+  "_note": "Réalisations tirées des légendes Instagram de Maison ZH (date de l'événement quand elle est donnée, sinon mois de publication). guests = nombre d'invités, À REMPLIR (null = non affiché). venue = lieu, null = à remplir. Textes dans locales/*.json → realisations.items.",
+  "realisations": [
+    { "id": "halah", "type": "mariage", "venue": null, "date": "2026-09", "guests": null, "image": "/media/mariages/buffet-mariage-parc.jpg", "instagram": "https://www.instagram.com/reel/Dew_khgoM9z/" },
+    { "id": "yanis", "type": "mariage", "venue": null, "date": "2026-10", "guests": null, "image": "/media/mariages/buffet-chateau-bouchees.jpg", "instagram": "https://www.instagram.com/reel/Deul8tGoVdF/" },
+    { "id": "zayn", "type": "domicile", "venue": null, "date": "2026-10", "guests": null, "image": "/media/marocain/agneau-pruneaux-abricots.jpg", "instagram": "https://www.instagram.com/reel/DeM7zFsIemd/" },
+    { "id": "chapiteau", "type": "mariage", "venue": null, "date": "2026-05", "guests": null, "image": "/media/mariages/table-dressee-chapiteau.jpg", "instagram": "https://www.instagram.com/reel/DZF_TjZIEen/" },
+    { "id": "grandmorin", "type": "mariage", "venue": "Domaine du Grand Morin (77)", "date": "2025-11", "guests": null, "image": "/media/europeen/pavlovas-service.jpg", "instagram": "https://www.instagram.com/reel/DRAfB21CKYz/" },
+    { "id": "lina", "type": "mariage", "venue": null, "date": "2025-05", "guests": null, "image": "/media/mariages/buffet-cocktail-mini-burgers.jpg", "instagram": "https://www.instagram.com/reel/DJkJbctoWpb/" }
+  ]
+}

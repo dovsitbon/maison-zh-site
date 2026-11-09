@@ -1,0 +1,2 @@
+Emplacement pour les photos et vidéos en haute qualité envoyées par Maison ZH.
+Les classer ensuite dans hero/, mariages/, marocain/, europeen/, corporate/, animations/, galerie/ puis lancer : npm run media

@@ -266,6 +266,20 @@
   border-radius: 999px 999px 0.5rem 0.5rem / 34% 34% 0.5rem 0.5rem;
 }
 
+/* Apparition au défilement (components/Reveal.tsx) : masqué seulement si JavaScript tourne */
+html.js .reveal:not(.is-in) {
+  opacity: 0;
+  transform: translateY(var(--ry, 24px));
+}
+.reveal {
+  transition:
+    opacity 1.1s var(--ease-soft) var(--rd, 0s),
+    transform 1.1s var(--ease-soft) var(--rd, 0s);
+}
+.menu-in {
+  animation: rise 0.3s var(--ease-soft) both;
+}
+
 /* Apparition du hero en CSS pur, sans attendre l'hydratation (le H1, élément LCP, n'est pas animé) */
 .rise {
   animation: rise 0.9s var(--ease-soft) both;

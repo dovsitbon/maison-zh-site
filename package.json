@@ -13,7 +13,6 @@
     "tw-inline": "node scripts/tw-inline.mjs"
   },
   "dependencies": {
-    "framer-motion": "^14.9.0",
     "next": "16.4.4",
     "react": "19.3.0",
     "react-dom": "19.3.0"

@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import site from "@/data/site.json";
 import { Logo } from "@/components/Logo";
@@ -81,14 +80,9 @@ export function Header() {
         </div>
       </header>
 
-      <AnimatePresence>
-        {menu && (
-          <motion.div
-            className="fixed inset-0 z-[60] flex flex-col overscroll-contain bg-ivory text-ink"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.25 }}
+      {menu && (
+          <div
+            className="menu-in fixed inset-0 z-[60] flex flex-col overscroll-contain bg-ivory text-ink"
             role="dialog"
             aria-modal="true"
             aria-label={d.nav.menu}
@@ -101,11 +95,11 @@ export function Header() {
             </div>
             <nav className="flex flex-1 flex-col justify-center gap-2 px-6" aria-label={d.nav.menu}>
               {[...links.slice(0, 4), { href: `${home}/formules`, label: d.nav.formules }, ...links.slice(4)].map((l, i) => (
-                <motion.div key={l.href} initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.04 * i + 0.05, duration: 0.3 }}>
+                <div key={l.href} className="menu-in" style={{ animationDelay: `${0.04 * i + 0.05}s` }}>
                   <Link href={l.href} onClick={() => setMenu(false)} className="display block py-1.5 text-[1.9rem]">
                     {l.label}
                   </Link>
-                </motion.div>
+                </div>
               ))}
               <Link href={`${home}#devis`} onClick={() => setMenu(false)} className="btn btn-primary mt-6 self-start">
                 {d.nav.quote}
@@ -118,9 +112,8 @@ export function Header() {
                 <span dir="ltr">{site.instagramHandle}</span>
               </a>
             </div>
-          </motion.div>
+          </div>
         )}
-      </AnimatePresence>
     </>
   );
 }

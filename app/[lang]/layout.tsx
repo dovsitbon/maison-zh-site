@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
-import { Amiri, Cormorant_Garamond, Jost } from "next/font/google";
+import { Cormorant_Garamond, Jost } from "next/font/google";
+import localFont from "next/font/local";
 import "../globals.css";
 import site from "@/data/site.json";
 import { dirOf, getDict, isLocale, locales } from "@/lib/i18n";
@@ -15,7 +16,16 @@ import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 // Polices auto-hébergées par next/font (servies depuis le site, aucune requête vers Google)
 const cormorant = Cormorant_Garamond({ subsets: ["latin"], weight: ["500", "600"], style: ["normal", "italic"], variable: "--font-cormorant", display: "swap" });
 const jost = Jost({ subsets: ["latin"], weight: ["400", "500"], variable: "--font-jost", display: "swap" });
-const amiri = Amiri({ subsets: ["arabic"], weight: ["400", "700"], variable: "--font-amiri", display: "swap", preload: false });
+// Amiri réduite aux caractères du site (scripts/amiri-subset.py) : ≈ 100 Ko au lieu de 200
+const amiri = localFont({
+  src: [
+    { path: "../fonts/amiri-400.woff2", weight: "400", style: "normal" },
+    { path: "../fonts/amiri-700.woff2", weight: "700", style: "normal" },
+  ],
+  variable: "--font-amiri",
+  display: "swap",
+  preload: false,
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
@@ -33,7 +43,7 @@ export async function generateStaticParams() {
 
 export const dynamicParams = false;
 
-const introScript = `try{if(sessionStorage.getItem("maisonzh-intro")==="1"||matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("intro-seen")}catch(e){}`;
+const introScript = `document.documentElement.classList.add("js");try{if(sessionStorage.getItem("maisonzh-intro")==="1"||matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("intro-seen")}catch(e){}`;
 
 export default async function LangLayout({ children, params }: LayoutProps<"/[lang]">) {
   const { lang } = await params;

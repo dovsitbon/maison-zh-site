@@ -18,6 +18,6 @@ for weight, name in (("400", "Regular"), ("700", "Bold")):
     s = subset.Subsetter(opts)
     s.populate(text="".join(sorted(chars)))
     s.subset(font)
-    out = root / f"app/fonts/amiri-{weight}.woff2"
+    out = root / f"public/fonts/amiri-{weight}.woff2"
     subset.save_font(font, str(out), opts)
     print(out.name, out.stat().st_size // 1024, "Ko")

@@ -28,7 +28,7 @@ export function LangSwitch({ lang, label, className = "" }: { lang: Locale; labe
             onClick={() => {
               document.cookie = `NEXT_LOCALE=${l};path=/;max-age=31536000;samesite=lax`;
             }}
-            className={`inline-flex min-h-10 min-w-6 items-center justify-center transition-opacity ${l === "ar" ? "font-[family-name:var(--font-amiri)] text-[1.15rem] tracking-normal" : ""} ${l === lang ? "opacity-100" : "opacity-60 hover:opacity-100"}`}
+            className={`inline-flex min-h-10 min-w-6 items-center justify-center transition-opacity ${l === "ar" ? "font-[family-name:Tahoma,_'Segoe_UI',_sans-serif] text-[1.05rem] tracking-normal" : ""} ${l === lang ? "opacity-100" : "opacity-60 hover:opacity-100"}`}
           >
             {LABELS[l]}
           </a>

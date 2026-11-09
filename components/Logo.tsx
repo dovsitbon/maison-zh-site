@@ -18,12 +18,12 @@ export function Mark({ className = "h-10 w-10" }: { className?: string }) {
  * « Zh » en italique doré qui s'y accroche, « TRAITEUR » en petites capitales espacées dessous.
  * Remplaçable : public/logo.svg et app/icon.svg reprennent le même dessin.
  */
-export function Logo({ className = "", compact = false }: { className?: string; compact?: boolean }) {
+export function Logo({ className = "", compact = false, dark = false }: { className?: string; compact?: boolean; dark?: boolean }) {
   return (
     <span className={`inline-flex flex-col items-center leading-none ${className}`} dir="ltr" translate="no">
       <span className="flex items-baseline">
         <span className={`font-[family-name:var(--font-cormorant)] font-medium tracking-[0.16em] ${compact ? "text-[1.45rem]" : "text-[1.7rem] md:text-[1.95rem]"}`}>MAISON</span>
-        <span className={`-ms-1 font-[family-name:var(--font-cormorant)] font-medium italic text-gold ${compact ? "text-[1.75rem]" : "text-[2.05rem] md:text-[2.35rem]"}`}>Zh</span>
+        <span className={`-ms-1 font-[family-name:var(--font-cormorant)] font-medium italic ${dark ? "text-gold" : "text-gold-deep"} ${compact ? "text-[1.75rem]" : "text-[2.05rem] md:text-[2.35rem]"}`}>Zh</span>
       </span>
       <span className="mt-0.5 font-[family-name:var(--font-jost)] text-[0.5rem] font-medium tracking-[0.5em] opacity-75">TRAITEUR</span>
     </span>

@@ -11,6 +11,8 @@
   --color-stone: #e9dfcd;
   --color-gold: #c6a15b;
   --color-gold-soft: #ead9b4;
+  /* Or du logo sur fond clair : 3,6:1 (grand texte) */
+  --color-gold-deep: #9a7636;
   /* Or assombri pour le petit texte sur ivoire : 5:1 */
   --color-gold-ink: #7e5f27;
   --color-green: #1f3b32;

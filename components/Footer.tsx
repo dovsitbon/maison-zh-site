@@ -12,7 +12,7 @@ export function Footer({ lang, d }: { lang: Locale; d: Dict }) {
       <div className="zellige text-gold/50" aria-hidden="true" />
       <div className="mx-auto grid max-w-[1400px] gap-12 px-5 py-16 sm:grid-cols-2 lg:grid-cols-[1.3fr_1fr_1fr_1fr_1fr] md:px-8 md:py-20">
         <div>
-          <Logo className="text-ivory" />
+          <Logo className="text-ivory" dark />
           <p className="mt-6 max-w-xs leading-relaxed text-ivory/75">{d.footer.tagline}</p>
         </div>
         <div>

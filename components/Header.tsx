@@ -59,7 +59,7 @@ export function Header() {
             ))}
           </nav>
 
-          <Link href={home} aria-label={d.nav.home} className="text-ink xl:order-2">
+          <Link href={home} title={d.nav.home} className="text-ink xl:order-2">
             <Logo compact />
           </Link>
 

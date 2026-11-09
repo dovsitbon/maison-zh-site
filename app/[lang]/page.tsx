@@ -354,7 +354,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
 
       {/* ——— Demande de devis ——— */}
       <section id="devis" className="scroll-mt-16 bg-stone px-5 py-20 md:px-8 md:py-28" aria-labelledby="quote-title">
-        <div className="mx-auto grid max-w-[1400px] gap-12 lg:grid-cols-[1fr_1.6fr] lg:gap-16">
+        <div className="mx-auto grid max-w-[1400px] grid-cols-1 gap-12 lg:grid-cols-[1fr_1.6fr] lg:gap-16 [&>*]:min-w-0">
           <div>
             <SectionHead eyebrow={d.quote.eyebrow} title={d.quote.title} text={d.quote.text} id="quote-title" />
             <div className="mt-8 space-y-3">

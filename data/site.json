@@ -1,7 +1,7 @@
 {
   "_note": "Coordonnées de Maison ZH. Les champs à null sont « à remplir » (voir INFOS-A-DEMANDER.md).",
   "name": "Maison ZH",
-  "url": "https://maison-zh.vercel.app",
+  "url": "https://maison-zh-traiteur.vercel.app",
   "phone": "06 21 28 31 01",
   "phoneIntl": "+33 6 21 28 31 01",
   "tel": "+33621283101",

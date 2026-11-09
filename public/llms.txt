@@ -10,10 +10,10 @@
 
 ## Pages
 
-- [Accueil](https://maison-zh.vercel.app/fr): prestations, deux univers, formules, animations, réalisations, FAQ, devis
-- [Traiteur mariage](https://maison-zh.vercel.app/fr/mariage)
-- [Réceptions et fêtes de famille](https://maison-zh.vercel.app/fr/reception)
-- [Traiteur entreprise](https://maison-zh.vercel.app/fr/entreprise)
-- [Chef à domicile](https://maison-zh.vercel.app/fr/chef-a-domicile)
-- [Formules et menus](https://maison-zh.vercel.app/fr/formules)
+- [Accueil](https://maison-zh-traiteur.vercel.app/fr): prestations, deux univers, formules, animations, réalisations, FAQ, devis
+- [Traiteur mariage](https://maison-zh-traiteur.vercel.app/fr/mariage)
+- [Réceptions et fêtes de famille](https://maison-zh-traiteur.vercel.app/fr/reception)
+- [Traiteur entreprise](https://maison-zh-traiteur.vercel.app/fr/entreprise)
+- [Chef à domicile](https://maison-zh-traiteur.vercel.app/fr/chef-a-domicile)
+- [Formules et menus](https://maison-zh-traiteur.vercel.app/fr/formules)
 - Versions arabe (/ar) et anglaise (/en)

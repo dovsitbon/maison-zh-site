@@ -1,6 +1,6 @@
 # MAISON ZH — contenu du site à valider
 
-Site : https://maison-zh.vercel.app (FR /fr, AR /ar, EN /en). Les textes se modifient dans `locales/fr.json`, `ar.json`, `en.json` ; les infos datées dans `data/*.json`. Ce fichier est régénéré par `npm run contenu`. Les infos à demander sont dans `INFOS-A-DEMANDER.md`.
+Site : https://maison-zh-traiteur.vercel.app (FR /fr, AR /ar, EN /en). Les textes se modifient dans `locales/fr.json`, `ar.json`, `en.json` ; les infos datées dans `data/*.json`. Ce fichier est régénéré par `npm run contenu`. Les infos à demander sont dans `INFOS-A-DEMANDER.md`.
 
 ## Titre du hero : 3 propositions
 
